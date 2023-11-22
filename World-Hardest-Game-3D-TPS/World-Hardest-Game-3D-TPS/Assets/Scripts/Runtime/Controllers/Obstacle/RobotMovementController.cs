@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Runtime.Controllers.Obstacle
 {
-    public class ObstacleMovementController : MonoBehaviour
+    public class RobotMovementController : MonoBehaviour
     {
         [SerializeField] private Vector3 endPos;
         [SerializeField] private float duration;
