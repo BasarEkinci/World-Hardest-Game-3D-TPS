@@ -714,8 +714,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4216073086042600486}
   - component: {fileID: 8089354830465734066}
-  - component: {fileID: 4675809957858525070}
   - component: {fileID: 383926021645238530}
+  - component: {fileID: 4675809957858525070}
   m_Layer: 7
   m_Name: Beyblade1
   m_TagString: Obstacle
@@ -758,20 +758,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.47648436
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0.4643678, z: -0.003145218}
---- !u!114 &4675809957858525070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8034733633015539035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 780c4675f2f84b8ba48bcb1a61b5ce1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &383926021645238530
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -799,6 +787,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4675809957858525070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8034733633015539035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780c4675f2f84b8ba48bcb1a61b5ce1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathParetnt: {fileID: 0}
+  startDelay: 0
 --- !u!1 &9074003795631268892
 GameObject:
   m_ObjectHideFlags: 0

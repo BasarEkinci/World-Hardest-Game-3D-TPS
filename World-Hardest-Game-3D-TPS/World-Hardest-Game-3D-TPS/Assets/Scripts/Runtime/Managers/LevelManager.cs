@@ -9,7 +9,7 @@ namespace Runtime.Managers
     {
         [SerializeField] private Transform levelHolder;
 
-        private int _levelIndex;
+        private int _levelIndex = 1;
         private OnLevelDestoyerCommand _levelDestroyer;
         private OnLevelLoaderCommand _levelLoader;
         
@@ -47,7 +47,7 @@ namespace Runtime.Managers
         }
         private void OnGameRestart()
         {
-            _levelIndex = 0;
+            _levelIndex = 1;
         }
         private void OnGameStart()
         {
