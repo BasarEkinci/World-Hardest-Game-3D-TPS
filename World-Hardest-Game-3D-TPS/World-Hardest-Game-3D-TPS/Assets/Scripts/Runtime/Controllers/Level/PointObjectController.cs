@@ -1,4 +1,5 @@
 ﻿using System;
+using DG.Tweening;
 using Runtime.Signals;
 using UnityEngine;
 
@@ -10,6 +11,11 @@ namespace Runtime.Controllers.Level
         private void OnEnable()
         {
             PlayerSignals.Instance.OnPlayerCrash += OnPlayerCrash;
+        }
+
+        private void Start()
+        {
+            transform.DORotate(Vector3.up * 360f, 5f, RotateMode.LocalAxisAdd).SetLoops(-1).SetEase(Ease.Linear);
         }
 
         private void OnTriggerEnter(Collider other)
