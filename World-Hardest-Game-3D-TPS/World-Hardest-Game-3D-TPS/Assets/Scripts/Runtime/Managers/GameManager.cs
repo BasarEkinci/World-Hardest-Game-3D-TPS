@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Runtime.Managers
 {
@@ -7,7 +6,7 @@ namespace Runtime.Managers
     {
         private void Start()
         {
-            Application.targetFrameRate = 144;
+            Application.targetFrameRate = 60;
         }
     }
 }

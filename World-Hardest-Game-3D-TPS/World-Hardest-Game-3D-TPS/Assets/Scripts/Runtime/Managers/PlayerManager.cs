@@ -12,13 +12,17 @@ namespace Runtime.Managers
         [SerializeField] private Transform checkPoint;
 
         private bool _canMove = true;
-        
+        private Rigidbody _rigidbody;
         private void OnEnable()
         {
             PlayerSignals.Instance.OnPlayerCrash += OnPlayerCrash;
             CoreGameSignals.Instance.OnLevelComplete += OnLevelComplete;
             CoreGameSignals.Instance.OnNextLevel += OnNextLevel;
-            
+        }
+
+        private void Awake()
+        {
+            _rigidbody = GetComponent<Rigidbody>();
         }
 
         private void OnDisable()
@@ -53,6 +57,9 @@ namespace Runtime.Managers
             if(!_canMove) return;
             playerMovementController.Move();
             playerAnimationController.SetAnimation();
+
+            if (!Input.anyKey)
+                _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
         }
     }
 }

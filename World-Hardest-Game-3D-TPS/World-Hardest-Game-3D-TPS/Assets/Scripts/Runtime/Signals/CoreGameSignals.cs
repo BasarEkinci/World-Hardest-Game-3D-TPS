@@ -4,7 +4,6 @@ namespace Runtime.Signals
 {
     public class CoreGameSignals : MonoSingelton<CoreGameSignals>
     {
-        public UnityAction OnGameOver = delegate {  };
         public UnityAction OnGameRestart = delegate {  };
         public UnityAction OnLevelComplete = delegate {  };
         public UnityAction OnClearActiveLevel = delegate {  };

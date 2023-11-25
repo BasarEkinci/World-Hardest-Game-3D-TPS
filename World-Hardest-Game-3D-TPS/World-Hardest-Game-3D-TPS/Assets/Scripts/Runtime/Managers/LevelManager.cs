@@ -8,22 +8,17 @@ namespace Runtime.Managers
     public class LevelManager : MonoBehaviour
     {
         [SerializeField] private Transform levelHolder;
-
-        private int _levelIndex = 1;
+        
         private OnLevelDestoyerCommand _levelDestroyer;
         private OnLevelLoaderCommand _levelLoader;
+
+        private int _levelIndex = 1;
         
         private void Awake()
         {
             _levelDestroyer = new OnLevelDestoyerCommand(levelHolder);
             _levelLoader = new OnLevelLoaderCommand(levelHolder);
         }
-
-        private void Start()
-        {
-            Debug.Log(_levelIndex);
-        }
-
         private void OnEnable()
         {
             CoreGameSignals.Instance.OnLevelComplete += OnLevelComplete;
@@ -32,7 +27,6 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnClearActiveLevel += OnClearActiveLevel;
             CoreGameSignals.Instance.OnLoadLevel += OnLoadLevel;
         }
-        
         private void OnDisable()
         {
             CoreGameSignals.Instance.OnLevelComplete -= OnLevelComplete;
@@ -51,7 +45,7 @@ namespace Runtime.Managers
         }
         private void OnGameStart()
         {
-            _levelLoader.Execute(_levelIndex);
+            _levelLoader.Execute(1);
         }
         private void OnClearActiveLevel()
         {
@@ -60,7 +54,6 @@ namespace Runtime.Managers
         private void OnLevelComplete()
         {
             _levelIndex++;
-            Debug.Log(_levelIndex);
         }
     }
 }

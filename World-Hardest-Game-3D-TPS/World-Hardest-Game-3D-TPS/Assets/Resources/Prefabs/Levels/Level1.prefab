@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8103181830315037778}
   - component: {fileID: 2092772283592815417}
   - component: {fileID: 7820619167706174189}
-  - component: {fileID: 329892876028111943}
   m_Layer: 0
   m_Name: yellowLego (42)
   m_TagString: Bound
@@ -85,27 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &329892876028111943
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32431094733413675}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: -5.2838886e-11, y: -5.1548214e-11, z: 0.0005699999}
 --- !u!1 &45990681953598807
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,7 +95,6 @@ GameObject:
   - component: {fileID: 8042975981703015092}
   - component: {fileID: 4870320149557693041}
   - component: {fileID: 1675647474928462444}
-  - component: {fileID: 4664991921345636096}
   m_Layer: 0
   m_Name: yellowLego (93)
   m_TagString: Bound
@@ -191,27 +168,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4664991921345636096
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45990681953598807}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &66474469536787514
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +179,6 @@ GameObject:
   - component: {fileID: 166082810114874063}
   - component: {fileID: 7203266454176991597}
   - component: {fileID: 3084915792153590188}
-  - component: {fileID: 8026718013145299045}
   m_Layer: 0
   m_Name: yellowLego (4)
   m_TagString: Bound
@@ -297,27 +252,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8026718013145299045
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66474469536787514}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0.0000000037252903, y: 0, z: 0.0005700001}
 --- !u!1 &97816086318554979
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,7 +431,6 @@ GameObject:
   - component: {fileID: 5050107644533040327}
   - component: {fileID: 7964306286471254311}
   - component: {fileID: 7881064752604499336}
-  - component: {fileID: 369525005199095509}
   m_Layer: 0
   m_Name: yellowLego (101)
   m_TagString: Bound
@@ -571,27 +504,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &369525005199095509
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165083801505381828}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &202484922397219130
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +599,6 @@ GameObject:
   - component: {fileID: 5494159654415206213}
   - component: {fileID: 8951972591001660903}
   - component: {fileID: 757737395290453792}
-  - component: {fileID: 4438148148483413503}
   m_Layer: 0
   m_Name: yellowLego (60)
   m_TagString: Bound
@@ -761,27 +672,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4438148148483413503
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216871114689850487}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.0000000018626446, y: -0.0000000018796324, z: 0.00057000003}
 --- !u!1 &239565967071709839
 GameObject:
   m_ObjectHideFlags: 0
@@ -793,7 +683,6 @@ GameObject:
   - component: {fileID: 7845903632681911054}
   - component: {fileID: 2406516276767823080}
   - component: {fileID: 1053461834014202721}
-  - component: {fileID: 603107006380470781}
   m_Layer: 0
   m_Name: yellowLego (44)
   m_TagString: Bound
@@ -867,27 +756,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &603107006380470781
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239565967071709839}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.0000000018626446, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &275310139805250995
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,7 +851,6 @@ GameObject:
   - component: {fileID: 7130525599834582943}
   - component: {fileID: 463457326116797938}
   - component: {fileID: 5487007661389631358}
-  - component: {fileID: 4207114994698453405}
   m_Layer: 0
   m_Name: yellowLego (80)
   m_TagString: Bound
@@ -1057,27 +924,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4207114994698453405
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 324006914787121922}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -0.0000000018796324, z: 0.00057000015}
 --- !u!1 &336091736751711303
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,7 +935,6 @@ GameObject:
   - component: {fileID: 4066897546644114770}
   - component: {fileID: 2614076507088586738}
   - component: {fileID: 4733814873231822887}
-  - component: {fileID: 7964400787202131380}
   m_Layer: 0
   m_Name: yellowLego (48)
   m_TagString: Bound
@@ -1163,27 +1008,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7964400787202131380
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336091736751711303}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &370675687355609586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1019,6 @@ GameObject:
   - component: {fileID: 7407180340865316298}
   - component: {fileID: 3928473441364949675}
   - component: {fileID: 6568300307950124587}
-  - component: {fileID: 3321275321558913628}
   m_Layer: 0
   m_Name: yellowLego (27)
   m_TagString: Bound
@@ -1269,27 +1092,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3321275321558913628
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370675687355609586}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 2.328312e-10, y: 0.000000003708303, z: 0.00057000003}
 --- !u!1 &373059792167379652
 GameObject:
   m_ObjectHideFlags: 0
@@ -1301,7 +1103,6 @@ GameObject:
   - component: {fileID: 1713283031204518904}
   - component: {fileID: 802536856512293817}
   - component: {fileID: 1071841829298760293}
-  - component: {fileID: 1813562846445474114}
   m_Layer: 0
   m_Name: yellowLego (84)
   m_TagString: Bound
@@ -1375,27 +1176,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1813562846445474114
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373059792167379652}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: 0.0000000018456578, z: 0.00057000003}
 --- !u!1 &397544765770449534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,7 +1523,6 @@ GameObject:
   - component: {fileID: 4022616038331898364}
   - component: {fileID: 6266503723789420603}
   - component: {fileID: 8664340534797988171}
-  - component: {fileID: 7347556039433070727}
   m_Layer: 0
   m_Name: yellowLego (70)
   m_TagString: Bound
@@ -1817,27 +1596,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7347556039433070727
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578679011684929628}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.0005700001}
 --- !u!1 &593324154479453225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,7 +1607,6 @@ GameObject:
   - component: {fileID: 3154985365405718609}
   - component: {fileID: 2240419173194163039}
   - component: {fileID: 4237997858843867943}
-  - component: {fileID: 4216503659397393137}
   m_Layer: 0
   m_Name: yellowLego (72)
   m_TagString: Bound
@@ -1923,27 +1680,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4216503659397393137
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593324154479453225}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.00057}
 --- !u!1 &641886849313532913
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,7 +1928,6 @@ GameObject:
   - component: {fileID: 4160993823759439569}
   - component: {fileID: 645411621752754132}
   - component: {fileID: 5720577003322660188}
-  - component: {fileID: 7258744555671212259}
   m_Layer: 0
   m_Name: yellowLego (65)
   m_TagString: Bound
@@ -2266,27 +2001,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7258744555671212259
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902841192413808868}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000037252903, z: 0.00057}
 --- !u!1 &908544812339699610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,7 +2012,6 @@ GameObject:
   - component: {fileID: 2414213709216448060}
   - component: {fileID: 9092569936131188406}
   - component: {fileID: 30379944509512513}
-  - component: {fileID: 3760835070913610119}
   m_Layer: 0
   m_Name: yellowLego (115)
   m_TagString: Bound
@@ -2372,27 +2085,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3760835070913610119
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908544812339699610}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: -0.000000007450581, z: 0.00057}
 --- !u!1 &918434502475669013
 GameObject:
   m_ObjectHideFlags: 0
@@ -2740,7 +2432,6 @@ GameObject:
   - component: {fileID: 1908094039732205239}
   - component: {fileID: 8020021037455250995}
   - component: {fileID: 9184062592020165597}
-  - component: {fileID: 6460820735837257791}
   m_Layer: 0
   m_Name: yellowLego (67)
   m_TagString: Bound
@@ -2814,27 +2505,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6460820735837257791
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1022207995382260683}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000037252903, z: 0.00057}
 --- !u!1 &1050222660167405219
 GameObject:
   m_ObjectHideFlags: 0
@@ -2930,7 +2600,6 @@ GameObject:
   - component: {fileID: 7244842540992084579}
   - component: {fileID: 4132712076005997664}
   - component: {fileID: 1099730156390591610}
-  - component: {fileID: 8006995663067266007}
   m_Layer: 0
   m_Name: yellowLego (81)
   m_TagString: Bound
@@ -3004,27 +2673,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8006995663067266007
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063729145710660081}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &1123318020205879037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,7 +2768,7 @@ GameObject:
   - component: {fileID: 8109327054155414902}
   - component: {fileID: 4299635815533438054}
   - component: {fileID: 8257628730618789164}
-  - component: {fileID: 2713471505849433176}
+  - component: {fileID: 1634146178651804199}
   m_Layer: 0
   m_Name: yellowLego (77)
   m_TagString: Bound
@@ -3194,7 +2842,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2713471505849433176
+--- !u!65 &1634146178651804199
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3213,8 +2861,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -1.698734e-11, z: 0.00057000015}
+  m_Size: {x: 0.0015799808, y: 0.041052513, z: 0.0023961603}
+  m_Center: {x: 2.570853e-15, y: 0.018936248, z: 0.0011980801}
 --- !u!1 &1154085370142369468
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,7 +2874,6 @@ GameObject:
   - component: {fileID: 2556677105513235807}
   - component: {fileID: 2662197451888963450}
   - component: {fileID: 3787773888029615190}
-  - component: {fileID: 6492123665748504971}
   m_Layer: 0
   m_Name: yellowLego (32)
   m_TagString: Bound
@@ -3300,27 +2947,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6492123665748504971
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154085370142369468}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -1.16414774e-10, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &1155074237245900909
 GameObject:
   m_ObjectHideFlags: 0
@@ -3668,7 +3294,6 @@ GameObject:
   - component: {fileID: 848838871819278387}
   - component: {fileID: 8096137239095605414}
   - component: {fileID: 1803670956613592201}
-  - component: {fileID: 641733501628791890}
   m_Layer: 0
   m_Name: yellowLego (110)
   m_TagString: Bound
@@ -3742,27 +3367,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &641733501628791890
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310864125244296538}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -0.0000000018796324, z: 0.00057000003}
 --- !u!1 &1390431615106665124
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,7 +3378,6 @@ GameObject:
   - component: {fileID: 2298847128320438690}
   - component: {fileID: 8970488582209410692}
   - component: {fileID: 548075940257871409}
-  - component: {fileID: 1146648395119117628}
   m_Layer: 0
   m_Name: yellowLego (124)
   m_TagString: Bound
@@ -3848,27 +3451,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1146648395119117628
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390431615106665124}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.001579981, y: 0.0031799593, z: 0.0011400001}
-  m_Center: {x: -0.0000000037252863, y: -4.6492607e-10, z: 0.00057000003}
 --- !u!1 &1413415313958225469
 GameObject:
   m_ObjectHideFlags: 0
@@ -3880,7 +3462,6 @@ GameObject:
   - component: {fileID: 237527762131982108}
   - component: {fileID: 6872193039766409586}
   - component: {fileID: 8667803763113722332}
-  - component: {fileID: 2644177942357467113}
   m_Layer: 0
   m_Name: yellowLego (55)
   m_TagString: Bound
@@ -3954,27 +3535,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2644177942357467113
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1413415313958225469}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -0.0000000037422776, z: 0.00057000003}
 --- !u!1 &1415435091241836949
 GameObject:
   m_ObjectHideFlags: 0
@@ -4106,7 +3666,6 @@ GameObject:
   - component: {fileID: 2880118357516191160}
   - component: {fileID: 207219415477129551}
   - component: {fileID: 9163846211340734626}
-  - component: {fileID: 4010339623610602238}
   m_Layer: 0
   m_Name: yellowLego (2)
   m_TagString: Bound
@@ -4180,27 +3739,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4010339623610602238
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436042535636544650}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.00057}
 --- !u!1 &1476070715928044686
 GameObject:
   m_ObjectHideFlags: 0
@@ -4380,7 +3918,7 @@ GameObject:
   - component: {fileID: 2772878239343426750}
   - component: {fileID: 1406529185900180112}
   - component: {fileID: 7495474503127297843}
-  - component: {fileID: 7671608182149917851}
+  - component: {fileID: 4026432959525703185}
   m_Layer: 0
   m_Name: yellowLego (13)
   m_TagString: Bound
@@ -4454,7 +3992,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7671608182149917851
+--- !u!65 &4026432959525703185
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4473,8 +4011,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0.0000000037252903, y: 0.0000000018626451, z: 0.00057}
+  m_Size: {x: 0.0015799807, y: 0.042716056, z: 0.0032869347}
+  m_Center: {x: 0, y: 0.019768158, z: 0.0016434666}
 --- !u!1 &1548417158784389175
 GameObject:
   m_ObjectHideFlags: 0
@@ -4570,7 +4108,6 @@ GameObject:
   - component: {fileID: 3917435398978739149}
   - component: {fileID: 1813962573046857863}
   - component: {fileID: 8892684749497826476}
-  - component: {fileID: 3884958823766620449}
   m_Layer: 0
   m_Name: yellowLego (66)
   m_TagString: Bound
@@ -4644,27 +4181,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3884958823766620449
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1557941187565145312}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000037252903, z: 0.0005700001}
 --- !u!1 &1564748127039412768
 GameObject:
   m_ObjectHideFlags: 0
@@ -4760,7 +4276,6 @@ GameObject:
   - component: {fileID: 2293467219481113838}
   - component: {fileID: 4005218426932668535}
   - component: {fileID: 3034197138204559034}
-  - component: {fileID: 1130482617172971977}
   m_Layer: 0
   m_Name: yellowLego (125)
   m_TagString: Bound
@@ -4834,27 +4349,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1130482617172971977
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1568195104379112147}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -1.6987939e-11, y: -4.4867404e-10, z: 0.00057000003}
 --- !u!1 &1649407192871704902
 GameObject:
   m_ObjectHideFlags: 0
@@ -4866,7 +4360,6 @@ GameObject:
   - component: {fileID: 6083556566479646576}
   - component: {fileID: 7616286274746760685}
   - component: {fileID: 3369655695355224854}
-  - component: {fileID: 8479890555748223047}
   m_Layer: 0
   m_Name: yellowLego (7)
   m_TagString: Bound
@@ -4940,27 +4433,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8479890555748223047
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1649407192871704902}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000037252903, z: 0.0005700001}
 --- !u!1 &1709427330262519217
 GameObject:
   m_ObjectHideFlags: 0
@@ -4972,7 +4444,6 @@ GameObject:
   - component: {fileID: 6019325530150248866}
   - component: {fileID: 7975756851610658304}
   - component: {fileID: 6444837591479703634}
-  - component: {fileID: 4287599613672093739}
   m_Layer: 0
   m_Name: yellowLego (58)
   m_TagString: Bound
@@ -5046,27 +4517,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4287599613672093739
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709427330262519217}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: 0.0000000018456578, z: 0.00057000003}
 --- !u!1 &1733250565103510708
 GameObject:
   m_ObjectHideFlags: 0
@@ -5162,7 +4612,6 @@ GameObject:
   - component: {fileID: 7064300774129498650}
   - component: {fileID: 5126590549431147504}
   - component: {fileID: 3234010456440729279}
-  - component: {fileID: 2469483748972953252}
   m_Layer: 0
   m_Name: yellowLego (50)
   m_TagString: Bound
@@ -5236,27 +4685,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2469483748972953252
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738813828176416930}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 9.313231e-10, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &1773387887303940369
 GameObject:
   m_ObjectHideFlags: 0
@@ -5604,7 +5032,6 @@ GameObject:
   - component: {fileID: 8545430236894670953}
   - component: {fileID: 1752179296886201987}
   - component: {fileID: 6175536593696739771}
-  - component: {fileID: 724720406760775069}
   m_Layer: 0
   m_Name: yellowLego (18)
   m_TagString: Bound
@@ -5678,27 +5105,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &724720406760775069
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900339845652571537}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.003179959, z: 0.0011400006}
-  m_Center: {x: -4.4015662e-16, y: -0.0000000019645692, z: 0.00057000015}
 --- !u!1 &1938530694378614958
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,7 +5116,6 @@ GameObject:
   - component: {fileID: 297829470572023339}
   - component: {fileID: 3706108494428071487}
   - component: {fileID: 5018054359959910656}
-  - component: {fileID: 1014635351144185063}
   m_Layer: 0
   m_Name: yellowLego (39)
   m_TagString: Bound
@@ -5784,27 +5189,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1014635351144185063
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1938530694378614958}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 4.656613e-10, y: -3.240075e-17, z: 0.00057000027}
 --- !u!1 &1950566366183029451
 GameObject:
   m_ObjectHideFlags: 0
@@ -5816,7 +5200,6 @@ GameObject:
   - component: {fileID: 2042043887477600458}
   - component: {fileID: 8359967946858592128}
   - component: {fileID: 7679217424933706159}
-  - component: {fileID: 8128940329367380855}
   m_Layer: 0
   m_Name: yellowLego (109)
   m_TagString: Bound
@@ -5890,27 +5273,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8128940329367380855
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950566366183029451}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -0.0000000018796324, z: 0.00057000003}
 --- !u!1 &1982906980746216713
 GameObject:
   m_ObjectHideFlags: 0
@@ -5922,7 +5284,6 @@ GameObject:
   - component: {fileID: 7575505895520884022}
   - component: {fileID: 1740530517984016165}
   - component: {fileID: 3963703089419782005}
-  - component: {fileID: 7165087849321977993}
   m_Layer: 0
   m_Name: yellowLego (90)
   m_TagString: Bound
@@ -5996,27 +5357,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7165087849321977993
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982906980746216713}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: -0.0000000037252903, y: -3.240075e-17, z: 0.00057000027}
 --- !u!1 &2012855630219191191
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,7 +5452,6 @@ GameObject:
   - component: {fileID: 2234922644381351614}
   - component: {fileID: 2300775954772802882}
   - component: {fileID: 5113435027220289839}
-  - component: {fileID: 9191855597361046450}
   m_Layer: 0
   m_Name: yellowLego (61)
   m_TagString: Bound
@@ -6186,27 +5525,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9191855597361046450
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090329142888989298}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.0000000018626446, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &2166548168813032016
 GameObject:
   m_ObjectHideFlags: 0
@@ -6218,7 +5536,7 @@ GameObject:
   - component: {fileID: 5548484754488012553}
   - component: {fileID: 3666009859762212212}
   - component: {fileID: 2450102575490350189}
-  - component: {fileID: 815338516113906331}
+  - component: {fileID: 8806755412908073265}
   m_Layer: 0
   m_Name: yellowLego (52)
   m_TagString: Bound
@@ -6292,7 +5610,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &815338516113906331
+--- !u!65 &8806755412908073265
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6311,8 +5629,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 1.1743216e-17, y: -3.240075e-17, z: 0.00057000015}
+  m_Size: {x: 0.0015799807, y: 0.0060709957, z: 0.0028823894}
+  m_Center: {x: -1.37253335e-17, y: -0.0014455239, z: 0.0014411957}
 --- !u!1 &2217085372481443384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6324,7 +5642,6 @@ GameObject:
   - component: {fileID: 4632162248393312641}
   - component: {fileID: 3331997557580806879}
   - component: {fileID: 8102407995280772093}
-  - component: {fileID: 7216096172960771261}
   m_Layer: 0
   m_Name: yellowLego (106)
   m_TagString: Bound
@@ -6398,27 +5715,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7216096172960771261
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2217085372481443384}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 0.0000000074505815, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &2268193060413015511
 GameObject:
   m_ObjectHideFlags: 0
@@ -6514,7 +5810,6 @@ GameObject:
   - component: {fileID: 5206669927807718313}
   - component: {fileID: 8058827655730016092}
   - component: {fileID: 5802593231287939384}
-  - component: {fileID: 5767918836960006252}
   m_Layer: 0
   m_Name: yellowLego (56)
   m_TagString: Bound
@@ -6588,27 +5883,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5767918836960006252
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2277630965925991262}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: 0.0000000018456578, z: 0.00057000003}
 --- !u!1 &2301222055002125131
 GameObject:
   m_ObjectHideFlags: 0
@@ -6620,7 +5894,6 @@ GameObject:
   - component: {fileID: 3671203708649011954}
   - component: {fileID: 5304001305018692944}
   - component: {fileID: 8526627438059341334}
-  - component: {fileID: 2007715737871653462}
   m_Layer: 0
   m_Name: yellowLego (34)
   m_TagString: Bound
@@ -6694,27 +5967,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2007715737871653462
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2301222055002125131}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -2.328301e-10, y: 0.0000000018456578, z: 0.00057000015}
 --- !u!1 &2427769945846505796
 GameObject:
   m_ObjectHideFlags: 0
@@ -6726,7 +5978,6 @@ GameObject:
   - component: {fileID: 5195299150911815260}
   - component: {fileID: 7006756538815069332}
   - component: {fileID: 200028852418519205}
-  - component: {fileID: 1503987951040963650}
   m_Layer: 0
   m_Name: yellowLego (79)
   m_TagString: Bound
@@ -6800,27 +6051,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1503987951040963650
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2427769945846505796}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &2492743155124520803
 GameObject:
   m_ObjectHideFlags: 0
@@ -6832,7 +6062,6 @@ GameObject:
   - component: {fileID: 3065839964353699472}
   - component: {fileID: 2703674344016637614}
   - component: {fileID: 6265781012818675251}
-  - component: {fileID: 9043134348578021070}
   m_Layer: 0
   m_Name: yellowLego (88)
   m_TagString: Bound
@@ -6906,27 +6135,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9043134348578021070
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2492743155124520803}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &2529741990462300872
 GameObject:
   m_ObjectHideFlags: 0
@@ -6938,7 +6146,6 @@ GameObject:
   - component: {fileID: 2543929311751026311}
   - component: {fileID: 6552150592194542044}
   - component: {fileID: 3647158635935623040}
-  - component: {fileID: 6522874561059079232}
   m_Layer: 0
   m_Name: yellowLego (69)
   m_TagString: Bound
@@ -7012,27 +6219,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6522874561059079232
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2529741990462300872}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.0005700001}
 --- !u!1 &2531181696039223460
 GameObject:
   m_ObjectHideFlags: 0
@@ -7044,7 +6230,6 @@ GameObject:
   - component: {fileID: 5293783112977374749}
   - component: {fileID: 6046164733653132067}
   - component: {fileID: 6232834363557614360}
-  - component: {fileID: 4717753447634123375}
   m_Layer: 0
   m_Name: yellowLego (12)
   m_TagString: Bound
@@ -7118,27 +6303,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4717753447634123375
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2531181696039223460}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.00057}
 --- !u!1 &2608472710212269065
 GameObject:
   m_ObjectHideFlags: 0
@@ -7150,7 +6314,6 @@ GameObject:
   - component: {fileID: 3171416595224881775}
   - component: {fileID: 7089443313494855319}
   - component: {fileID: 2287581379915426398}
-  - component: {fileID: 2226923342019735605}
   m_Layer: 0
   m_Name: yellowLego (117)
   m_TagString: Bound
@@ -7224,27 +6387,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2226923342019735605
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2608472710212269065}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 1.1641532e-10, y: 0, z: 0.00057}
 --- !u!1 &2615279009744123579
 GameObject:
   m_ObjectHideFlags: 0
@@ -7340,7 +6482,6 @@ GameObject:
   - component: {fileID: 7196939039044193139}
   - component: {fileID: 8798517979106345535}
   - component: {fileID: 4440304316229453719}
-  - component: {fileID: 3887899581030842701}
   m_Layer: 0
   m_Name: yellowLego (54)
   m_TagString: Bound
@@ -7414,27 +6555,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3887899581030842701
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2615783481997006357}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: -5.2838886e-11, y: 0.000000003673742, z: 0.00057000003}
 --- !u!1 &2654811186374726633
 GameObject:
   m_ObjectHideFlags: 0
@@ -7698,7 +6818,6 @@ GameObject:
   - component: {fileID: 5990394485708918602}
   - component: {fileID: 2794302762733652201}
   - component: {fileID: 3724453405599819590}
-  - component: {fileID: 8847215600149799195}
   m_Layer: 0
   m_Name: yellowLego (116)
   m_TagString: Bound
@@ -7772,27 +6891,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8847215600149799195
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2781486746466653717}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.0005700001}
 --- !u!1 &2826102059491615548
 GameObject:
   m_ObjectHideFlags: 0
@@ -7804,7 +6902,6 @@ GameObject:
   - component: {fileID: 9079652011508605701}
   - component: {fileID: 5014800062744113641}
   - component: {fileID: 253666481845372452}
-  - component: {fileID: 2363143834972142698}
   m_Layer: 0
   m_Name: yellowLego (96)
   m_TagString: Bound
@@ -7878,27 +6975,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2363143834972142698
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2826102059491615548}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -0.0000000018796324, z: 0.00057000015}
 --- !u!1 &2887847439138757192
 GameObject:
   m_ObjectHideFlags: 0
@@ -8078,7 +7154,6 @@ GameObject:
   - component: {fileID: 752160166934614119}
   - component: {fileID: 6808072614965592424}
   - component: {fileID: 1203004507300566270}
-  - component: {fileID: 1523973259821895119}
   m_Layer: 0
   m_Name: yellowLego (25)
   m_TagString: Bound
@@ -8152,27 +7227,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1523973259821895119
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2991338783140411107}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -3.492454e-10, y: 0.000000003708303, z: 0.00057000015}
 --- !u!1 &3036580976767195875
 GameObject:
   m_ObjectHideFlags: 0
@@ -8268,7 +7322,6 @@ GameObject:
   - component: {fileID: 5695864909616033562}
   - component: {fileID: 4068687864149032795}
   - component: {fileID: 9059315153698669393}
-  - component: {fileID: 2410156152558047390}
   m_Layer: 0
   m_Name: yellowLego (111)
   m_TagString: Bound
@@ -8342,27 +7395,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2410156152558047390
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3071833017679865784}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799806, y: 0.0031799586, z: 0.0011400001}
-  m_Center: {x: -0.0000000074367916, y: -2.5110581e-14, z: 0.00057000003}
 --- !u!1 &3082554697038595408
 GameObject:
   m_ObjectHideFlags: 0
@@ -8458,7 +7490,6 @@ GameObject:
   - component: {fileID: 4486645549987970019}
   - component: {fileID: 7049505748158641042}
   - component: {fileID: 8776146228392445996}
-  - component: {fileID: 70773667186861580}
   m_Layer: 0
   m_Name: yellowLego (26)
   m_TagString: Bound
@@ -8532,27 +7563,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &70773667186861580
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3090702986554821946}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -3.492454e-10, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &3156366192288446168
 GameObject:
   m_ObjectHideFlags: 0
@@ -8816,7 +7826,6 @@ GameObject:
   - component: {fileID: 552109543549880136}
   - component: {fileID: 1624723580033870504}
   - component: {fileID: 6060144071473787376}
-  - component: {fileID: 2050586055103423700}
   m_Layer: 0
   m_Name: yellowLego (82)
   m_TagString: Bound
@@ -8890,27 +7899,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2050586055103423700
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3258382919959461532}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: 0.0000000018456578, z: 0.00057000003}
 --- !u!1 &3277679295764780134
 GameObject:
   m_ObjectHideFlags: 0
@@ -8922,7 +7910,6 @@ GameObject:
   - component: {fileID: 7050690418823968364}
   - component: {fileID: 3445015387349844121}
   - component: {fileID: 8952448856045721081}
-  - component: {fileID: 4345424147540781233}
   m_Layer: 0
   m_Name: yellowLego (1)
   m_TagString: Bound
@@ -8996,27 +7983,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4345424147540781233
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3277679295764780134}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: -0.000000007450581, z: 0.00057}
 --- !u!1 &3292949994482421707
 GameObject:
   m_ObjectHideFlags: 0
@@ -9182,7 +8148,6 @@ GameObject:
   - component: {fileID: 8846063073009129634}
   - component: {fileID: 2577674685654164383}
   - component: {fileID: 4190700485112503262}
-  - component: {fileID: 4161082111451392368}
   m_Layer: 0
   m_Name: yellowLego (22)
   m_TagString: Bound
@@ -9256,27 +8221,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4161082111451392368
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3320374766290445000}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.003179959, z: 0.0011400006}
-  m_Center: {x: -0.0000000037252907, y: -0.0000000010332465, z: 0.00057000015}
 --- !u!1 &3335420718189813552
 GameObject:
   m_ObjectHideFlags: 0
@@ -9456,7 +8400,6 @@ GameObject:
   - component: {fileID: 8276651914676254485}
   - component: {fileID: 7654370996422532563}
   - component: {fileID: 1290114444464016262}
-  - component: {fileID: 3044127462488071766}
   m_Layer: 0
   m_Name: yellowLego (5)
   m_TagString: Bound
@@ -9530,27 +8473,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3044127462488071766
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3382604134713514480}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0.0000000037252903, y: 0.0000000037252903, z: 0.00057}
 --- !u!1 &3416385355677392443
 GameObject:
   m_ObjectHideFlags: 0
@@ -9562,7 +8484,6 @@ GameObject:
   - component: {fileID: 2477146560234147280}
   - component: {fileID: 3029545930076625958}
   - component: {fileID: 5840015414117496510}
-  - component: {fileID: 7665857584981300253}
   m_Layer: 0
   m_Name: yellowLego (87)
   m_TagString: Bound
@@ -9636,27 +8557,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7665857584981300253
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3416385355677392443}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &3425496547192135740
 GameObject:
   m_ObjectHideFlags: 0
@@ -9752,7 +8652,6 @@ GameObject:
   - component: {fileID: 8002321351958830906}
   - component: {fileID: 519774606610490625}
   - component: {fileID: 5412793282724951067}
-  - component: {fileID: 317795479360217070}
   m_Layer: 0
   m_Name: yellowLego (103)
   m_TagString: Bound
@@ -9826,27 +8725,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &317795479360217070
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3426972034007063446}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799805, y: 0.00317996, z: 0.0011400003}
-  m_Center: {x: 6.583855e-13, y: 0.000000007450906, z: 0.00057000003}
 --- !u!1 &3430470000365504548
 GameObject:
   m_ObjectHideFlags: 0
@@ -9858,7 +8736,6 @@ GameObject:
   - component: {fileID: 2282286113807493156}
   - component: {fileID: 4277980817554758208}
   - component: {fileID: 8484486061536914055}
-  - component: {fileID: 5936993038066737568}
   m_Layer: 0
   m_Name: yellowLego (45)
   m_TagString: Bound
@@ -9932,27 +8809,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5936993038066737568
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3430470000365504548}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &3514814999408530786
 GameObject:
   m_ObjectHideFlags: 0
@@ -10048,7 +8904,7 @@ GameObject:
   - component: {fileID: 5823471373059480648}
   - component: {fileID: 3333128590759875019}
   - component: {fileID: 1399732569432172401}
-  - component: {fileID: 4542256803213592376}
+  - component: {fileID: 6195300510758140058}
   m_Layer: 0
   m_Name: yellowLego (76)
   m_TagString: Bound
@@ -10122,7 +8978,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4542256803213592376
+--- !u!65 &6195300510758140058
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10141,8 +8997,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000037252903, z: 0.00057}
+  m_Size: {x: 0.0015799807, y: 0.044296443, z: 0.00226648}
+  m_Center: {x: 0, y: -0.020558298, z: 0.0011332403}
 --- !u!1 &3537939256229675533
 GameObject:
   m_ObjectHideFlags: 0
@@ -10154,7 +9010,6 @@ GameObject:
   - component: {fileID: 8008121395787695646}
   - component: {fileID: 5626991864935639860}
   - component: {fileID: 7709216115517181059}
-  - component: {fileID: 8235434496909779892}
   m_Layer: 0
   m_Name: yellowLego (99)
   m_TagString: Bound
@@ -10228,27 +9083,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8235434496909779892
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3537939256229675533}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -0.0000000018796324, z: 0.00057000003}
 --- !u!1 &3552094413406395575
 GameObject:
   m_ObjectHideFlags: 0
@@ -10260,7 +9094,6 @@ GameObject:
   - component: {fileID: 5611875047160404987}
   - component: {fileID: 3543348387145863190}
   - component: {fileID: 1985921592751466114}
-  - component: {fileID: 8698671941568673837}
   m_Layer: 0
   m_Name: yellowLego (43)
   m_TagString: Bound
@@ -10334,27 +9167,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8698671941568673837
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3552094413406395575}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 9.313231e-10, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &3600446505698138134
 GameObject:
   m_ObjectHideFlags: 0
@@ -10450,7 +9262,6 @@ GameObject:
   - component: {fileID: 8999089266982739753}
   - component: {fileID: 7427334168849547259}
   - component: {fileID: 5506521052165661934}
-  - component: {fileID: 5162576953820961305}
   m_Layer: 0
   m_Name: yellowLego (28)
   m_TagString: Bound
@@ -10524,27 +9335,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5162576953820961305
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3612921607425364776}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 2.328312e-10, y: 0.000000003708303, z: 0.00057000003}
 --- !u!1 &3627733832273736232
 GameObject:
   m_ObjectHideFlags: 0
@@ -10556,7 +9346,6 @@ GameObject:
   - component: {fileID: 752186942384085853}
   - component: {fileID: 128186402754316995}
   - component: {fileID: 3699853531299286345}
-  - component: {fileID: 2568479935853622782}
   m_Layer: 0
   m_Name: yellowLego (21)
   m_TagString: Bound
@@ -10630,27 +9419,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2568479935853622782
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3627733832273736232}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.003179959, z: 0.0011400006}
-  m_Center: {x: -4.4015662e-16, y: -1.0192392e-10, z: 0.00057000003}
 --- !u!1 &3649066618583117992
 GameObject:
   m_ObjectHideFlags: 0
@@ -10662,7 +9430,7 @@ GameObject:
   - component: {fileID: 7229304932115057557}
   - component: {fileID: 2715251610747112670}
   - component: {fileID: 2071036081533602266}
-  - component: {fileID: 1072015978733051911}
+  - component: {fileID: 6318737421003057591}
   m_Layer: 0
   m_Name: yellowLego (123)
   m_TagString: Bound
@@ -10736,7 +9504,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1072015978733051911
+--- !u!65 &6318737421003057591
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10755,8 +9523,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.001579981, y: 0.0031799593, z: 0.0011400001}
-  m_Center: {x: -0.0000000037252863, y: 1.1715054e-10, z: 0.00057000003}
+  m_Size: {x: 0.0015799808, y: 0.0061452095, z: 0.0022951157}
+  m_Center: {x: -4.951611e-13, y: 0.0014826132, z: 0.0011475579}
 --- !u!1 &3658266070443067151
 GameObject:
   m_ObjectHideFlags: 0
@@ -11020,7 +9788,6 @@ GameObject:
   - component: {fileID: 6245429811468412984}
   - component: {fileID: 5759407316873406991}
   - component: {fileID: 4468159200777902971}
-  - component: {fileID: 4955973221749866145}
   m_Layer: 0
   m_Name: yellowLego (11)
   m_TagString: Bound
@@ -11094,27 +9861,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4955973221749866145
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3723157578902383157}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.0005700001}
 --- !u!1 &3805119017482340299
 GameObject:
   m_ObjectHideFlags: 0
@@ -11126,7 +9872,6 @@ GameObject:
   - component: {fileID: 5299806165942199957}
   - component: {fileID: 2255993831165998210}
   - component: {fileID: 2705935735126779773}
-  - component: {fileID: 9176525333980138926}
   m_Layer: 0
   m_Name: yellowLego (30)
   m_TagString: Bound
@@ -11200,27 +9945,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9176525333980138926
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3805119017482340299}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -4.6566073e-10, y: 0.0000000018456578, z: 0.00057000003}
 --- !u!1 &3827104306092039107
 GameObject:
   m_ObjectHideFlags: 0
@@ -11316,7 +10040,6 @@ GameObject:
   - component: {fileID: 4333170638348329709}
   - component: {fileID: 1099666393207400342}
   - component: {fileID: 3914060344853073197}
-  - component: {fileID: 5181441150406256983}
   m_Layer: 0
   m_Name: yellowLego (24)
   m_TagString: Bound
@@ -11390,27 +10113,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5181441150406256983
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3873805524702875796}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -2.328301e-10, y: 0.000000003708303, z: 0.00057000015}
 --- !u!1 &3906456366623180770
 GameObject:
   m_ObjectHideFlags: 0
@@ -11422,7 +10124,6 @@ GameObject:
   - component: {fileID: 971910417771640086}
   - component: {fileID: 3369817089616724367}
   - component: {fileID: 6212645943655729038}
-  - component: {fileID: 4282041078426158725}
   m_Layer: 0
   m_Name: yellowLego (53)
   m_TagString: Bound
@@ -11496,27 +10197,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4282041078426158725
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3906456366623180770}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.0000000018626446, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &3976550456937635588
 GameObject:
   m_ObjectHideFlags: 0
@@ -11612,7 +10292,6 @@ GameObject:
   - component: {fileID: 7646291010889912908}
   - component: {fileID: 879016862554066068}
   - component: {fileID: 3375205612331042627}
-  - component: {fileID: 7353119290848999463}
   m_Layer: 0
   m_Name: yellowLego (118)
   m_TagString: Bound
@@ -11686,27 +10365,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7353119290848999463
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4025704884384494363}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 1.1641532e-10, y: 0, z: 0.00057}
 --- !u!1 &4030026346537079752
 GameObject:
   m_ObjectHideFlags: 0
@@ -12054,7 +10712,7 @@ GameObject:
   - component: {fileID: 6928987665434549379}
   - component: {fileID: 300614034837867949}
   - component: {fileID: 602738453980976525}
-  - component: {fileID: 434301561842287899}
+  - component: {fileID: 8659275242854210398}
   m_Layer: 0
   m_Name: yellowLego (114)
   m_TagString: Bound
@@ -12128,7 +10786,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &434301561842287899
+--- !u!65 &8659275242854210398
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12147,8 +10805,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000003}
+  m_Size: {x: 0.0015799808, y: 0.030102657, z: 0.00306379}
+  m_Center: {x: 0.000000007450583, y: 0.013461357, z: 0.0015318951}
 --- !u!1 &4321687619071998310
 GameObject:
   m_ObjectHideFlags: 0
@@ -12160,7 +10818,6 @@ GameObject:
   - component: {fileID: 3972971666004333268}
   - component: {fileID: 9171795741718623174}
   - component: {fileID: 5616688985086902797}
-  - component: {fileID: 1062656189371446821}
   m_Layer: 0
   m_Name: yellowLego (75)
   m_TagString: Bound
@@ -12234,27 +10891,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1062656189371446821
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4321687619071998310}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: -4.656613e-10, y: 0, z: 0.00057}
 --- !u!1 &4341943436810565640
 GameObject:
   m_ObjectHideFlags: 0
@@ -12266,7 +10902,6 @@ GameObject:
   - component: {fileID: 8544064409334045105}
   - component: {fileID: 4555518666318775239}
   - component: {fileID: 5620442529546659460}
-  - component: {fileID: 2215738211308554661}
   m_Layer: 0
   m_Name: yellowLego (71)
   m_TagString: Bound
@@ -12340,27 +10975,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2215738211308554661
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4341943436810565640}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000018626451, z: 0.00057}
 --- !u!1 &4366139202489739221
 GameObject:
   m_ObjectHideFlags: 0
@@ -12372,7 +10986,6 @@ GameObject:
   - component: {fileID: 4860208449893303157}
   - component: {fileID: 4164787837685699805}
   - component: {fileID: 1031198333902636735}
-  - component: {fileID: 1500856971000965061}
   m_Layer: 0
   m_Name: yellowLego (38)
   m_TagString: Bound
@@ -12446,27 +11059,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1500856971000965061
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4366139202489739221}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 9.313226e-10, y: 9.313225e-10, z: 0.00057000027}
 --- !u!1 &4393367211433433101
 GameObject:
   m_ObjectHideFlags: 0
@@ -12478,7 +11070,6 @@ GameObject:
   - component: {fileID: 7245968354779913730}
   - component: {fileID: 6252030856529982651}
   - component: {fileID: 144024643229290545}
-  - component: {fileID: 3985497072572387507}
   m_Layer: 0
   m_Name: yellowLego (107)
   m_TagString: Bound
@@ -12552,27 +11143,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3985497072572387507
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4393367211433433101}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799813, y: 0.0031799597, z: 0.0011400008}
-  m_Center: {x: -0.00000000750401, y: -5.2082758e-11, z: 0.00057000003}
 --- !u!1 &4439781614988655304
 GameObject:
   m_ObjectHideFlags: 0
@@ -13170,7 +11740,6 @@ GameObject:
   - component: {fileID: 4668680516274857025}
   - component: {fileID: 3465007249012080093}
   - component: {fileID: 6150776605751299188}
-  - component: {fileID: 3937439239069094761}
   m_Layer: 0
   m_Name: yellowLego (20)
   m_TagString: Bound
@@ -13244,27 +11813,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3937439239069094761
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4967863682015031425}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.003179959, z: 0.0011400006}
-  m_Center: {x: -4.4015662e-16, y: -0.0000000010332465, z: 0.00057000003}
 --- !u!1 &5127405312371753133
 GameObject:
   m_ObjectHideFlags: 0
@@ -13528,7 +12076,7 @@ GameObject:
   - component: {fileID: 1016022711057740979}
   - component: {fileID: 2569045310904094226}
   - component: {fileID: 303522123551107224}
-  - component: {fileID: 3718030192710170789}
+  - component: {fileID: 3294085366197512039}
   m_Layer: 0
   m_Name: yellowLego (62)
   m_TagString: Bound
@@ -13602,7 +12150,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3718030192710170789
+--- !u!65 &3294085366197512039
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13621,8 +12169,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.0000000018626446, y: -1.698734e-11, z: 0.00057000015}
+  m_Size: {x: 0.0015799808, y: 0.031560414, z: 0.0028692207}
+  m_Center: {x: -8.9407654e-10, y: -0.014190215, z: 0.0014346103}
 --- !u!1 &5256749171923320774
 GameObject:
   m_ObjectHideFlags: 0
@@ -13634,7 +12182,6 @@ GameObject:
   - component: {fileID: 5578180591395647184}
   - component: {fileID: 5754797265475053573}
   - component: {fileID: 5235588208735990229}
-  - component: {fileID: 5989278633263188874}
   m_Layer: 0
   m_Name: yellowLego (29)
   m_TagString: Bound
@@ -13708,27 +12255,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5989278633263188874
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5256749171923320774}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 1.1641586e-10, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &5289396966600565352
 GameObject:
   m_ObjectHideFlags: 0
@@ -13824,7 +12350,6 @@ GameObject:
   - component: {fileID: 2225150716860984487}
   - component: {fileID: 7544866402119700385}
   - component: {fileID: 4678945769816345989}
-  - component: {fileID: 9077783622055532683}
   m_Layer: 0
   m_Name: yellowLego (17)
   m_TagString: Bound
@@ -13898,27 +12423,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &9077783622055532683
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5305768538969371569}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.003179959, z: 0.0011400006}
-  m_Center: {x: -4.4015662e-16, y: -1.0192392e-10, z: 0.00057000015}
 --- !u!1 &5310189307860429148
 GameObject:
   m_ObjectHideFlags: 0
@@ -14014,7 +12518,6 @@ GameObject:
   - component: {fileID: 5031800589399092637}
   - component: {fileID: 4165292847193849343}
   - component: {fileID: 4101642399785064910}
-  - component: {fileID: 3674216679018069317}
   m_Layer: 0
   m_Name: yellowLego (94)
   m_TagString: Bound
@@ -14088,27 +12591,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3674216679018069317
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5339151590078882162}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &5401937006055917361
 GameObject:
   m_ObjectHideFlags: 0
@@ -14239,7 +12721,6 @@ GameObject:
   - component: {fileID: 6057777160386422544}
   - component: {fileID: 8953739847393858650}
   - component: {fileID: 3392850037434774652}
-  - component: {fileID: 8709616759847694946}
   m_Layer: 0
   m_Name: yellowLego (33)
   m_TagString: Bound
@@ -14313,27 +12794,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8709616759847694946
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5466170639979425918}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: -5.2838886e-11, y: -5.1548214e-11, z: 0.00057000015}
 --- !u!1 &5535152394952137001
 GameObject:
   m_ObjectHideFlags: 0
@@ -14429,7 +12889,6 @@ GameObject:
   - component: {fileID: 7299391980918566438}
   - component: {fileID: 7522399057171979538}
   - component: {fileID: 233933193709999265}
-  - component: {fileID: 2346264345741969905}
   m_Layer: 0
   m_Name: yellowLego (108)
   m_TagString: Bound
@@ -14503,27 +12962,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2346264345741969905
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5622512028117396757}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400001}
-  m_Center: {x: 6.472298e-11, y: 0.0000000018636923, z: 0.0005699999}
 --- !u!1 &5664304995629771915
 GameObject:
   m_ObjectHideFlags: 0
@@ -14535,7 +12973,7 @@ GameObject:
   - component: {fileID: 886428467851499346}
   - component: {fileID: 4504759233886837335}
   - component: {fileID: 7764930028621395626}
-  - component: {fileID: 7522848143075669552}
+  - component: {fileID: 4730898731425094334}
   m_Layer: 0
   m_Name: yellowLego (37)
   m_TagString: Bound
@@ -14609,7 +13047,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7522848143075669552
+--- !u!65 &4730898731425094334
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14628,8 +13066,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 4.656613e-10, y: 0.0000000011641532, z: 0.00057000027}
+  m_Size: {x: 0.0015799807, y: 0.011002048, z: 0.0030137901}
+  m_Center: {x: -5.3263338e-17, y: 0.0039110677, z: 0.0015068965}
 --- !u!1 &5856786231023927839
 GameObject:
   m_ObjectHideFlags: 0
@@ -14641,7 +13079,6 @@ GameObject:
   - component: {fileID: 6559192756123309545}
   - component: {fileID: 9131070345736251028}
   - component: {fileID: 4451279367979114021}
-  - component: {fileID: 984796374869039914}
   m_Layer: 0
   m_Name: yellowLego (112)
   m_TagString: Bound
@@ -14715,27 +13152,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &984796374869039914
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856786231023927839}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &5861163057310364882
 GameObject:
   m_ObjectHideFlags: 0
@@ -14999,7 +13415,6 @@ GameObject:
   - component: {fileID: 849980696501066309}
   - component: {fileID: 4853005249826356898}
   - component: {fileID: 4509509028267706259}
-  - component: {fileID: 4838429304069449230}
   m_Layer: 0
   m_Name: yellowLego (113)
   m_TagString: Bound
@@ -15073,27 +13488,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4838429304069449230
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6042337320150275442}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: -5.2838886e-11, y: -9.828708e-10, z: 0.0005699999}
 --- !u!1 &6065217389885463067
 GameObject:
   m_ObjectHideFlags: 0
@@ -15357,7 +13751,6 @@ GameObject:
   - component: {fileID: 2044576246111082980}
   - component: {fileID: 7059223411564904741}
   - component: {fileID: 2524149357539952437}
-  - component: {fileID: 5627703242607813363}
   m_Layer: 0
   m_Name: yellowLego (3)
   m_TagString: Bound
@@ -15431,27 +13824,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5627703242607813363
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6233280884861204784}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0.0000000037252903, y: 0, z: 0.0005700001}
 --- !u!1 &6256516867664228514
 GameObject:
   m_ObjectHideFlags: 0
@@ -15547,7 +13919,6 @@ GameObject:
   - component: {fileID: 4760913526381368243}
   - component: {fileID: 4462336139239478342}
   - component: {fileID: 6162069185636560481}
-  - component: {fileID: 4276878582407050240}
   m_Layer: 0
   m_Name: yellowLego (6)
   m_TagString: Bound
@@ -15621,27 +13992,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4276878582407050240
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6298969207867710777}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0.0000000037252903, y: 0, z: 0.00057}
 --- !u!1 &6351265094793342097
 GameObject:
   m_ObjectHideFlags: 0
@@ -15653,7 +14003,6 @@ GameObject:
   - component: {fileID: 41850783257446547}
   - component: {fileID: 2474809091838589968}
   - component: {fileID: 8822213502924816862}
-  - component: {fileID: 8300982950577085659}
   m_Layer: 0
   m_Name: yellowLego (120)
   m_TagString: Bound
@@ -15727,27 +14076,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8300982950577085659
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6351265094793342097}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799806, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 5.888225e-11, y: 0.000000007450584, z: 0.00057000015}
 --- !u!1 &6487191954879970429
 GameObject:
   m_ObjectHideFlags: 0
@@ -15843,7 +14171,6 @@ GameObject:
   - component: {fileID: 7505840112951918939}
   - component: {fileID: 528775405037368313}
   - component: {fileID: 5668537713771143728}
-  - component: {fileID: 4554740504475651641}
   m_Layer: 0
   m_Name: yellowLego (91)
   m_TagString: Bound
@@ -15917,27 +14244,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4554740504475651641
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6511242271506996035}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 1.1743216e-17, y: 0.000000007450581, z: 0.00057000027}
 --- !u!1 &6517910532256819663
 GameObject:
   m_ObjectHideFlags: 0
@@ -15949,7 +14255,7 @@ GameObject:
   - component: {fileID: 4062208462656559335}
   - component: {fileID: 1956189633415921771}
   - component: {fileID: 509436694190906704}
-  - component: {fileID: 8649214456154509776}
+  - component: {fileID: 6957145694679840243}
   m_Layer: 0
   m_Name: yellowLego (104)
   m_TagString: Bound
@@ -16023,7 +14329,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8649214456154509776
+--- !u!65 &6957145694679840243
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16042,8 +14348,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799805, y: 0.00317996, z: 0.0011400003}
-  m_Center: {x: 6.583855e-13, y: 0.000000007450906, z: 0.00057000015}
+  m_Size: {x: 0.0015799805, y: 0.0063000205, z: 0.003279016}
+  m_Center: {x: -1.6898673e-13, y: 0.001560052, z: 0.001639509}
 --- !u!1 &6532205713002733060
 GameObject:
   m_ObjectHideFlags: 0
@@ -16139,7 +14445,6 @@ GameObject:
   - component: {fileID: 1122060204653906101}
   - component: {fileID: 6061685986197726129}
   - component: {fileID: 7264629263159710951}
-  - component: {fileID: 3604476631716899394}
   m_Layer: 0
   m_Name: yellowLego (73)
   m_TagString: Bound
@@ -16213,27 +14518,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3604476631716899394
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6583044543066502610}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: -4.656613e-10, y: 0, z: 0.0005700001}
 --- !u!1 &6601603095829994455
 GameObject:
   m_ObjectHideFlags: 0
@@ -16245,7 +14529,6 @@ GameObject:
   - component: {fileID: 971991910151217984}
   - component: {fileID: 4471028628432813305}
   - component: {fileID: 2210301856414803364}
-  - component: {fileID: 5239695059692531038}
   m_Layer: 0
   m_Name: yellowLego (9)
   m_TagString: Bound
@@ -16319,27 +14602,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5239695059692531038
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6601603095829994455}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0.0000000037252903, y: 0.0000000037252903, z: 0.00057}
 --- !u!1 &6648030953461124067
 GameObject:
   m_ObjectHideFlags: 0
@@ -16435,7 +14697,6 @@ GameObject:
   - component: {fileID: 6489037194990781562}
   - component: {fileID: 7620931136190127644}
   - component: {fileID: 7258237427072122230}
-  - component: {fileID: 5345917472262874702}
   m_Layer: 0
   m_Name: yellowLego (64)
   m_TagString: Bound
@@ -16509,27 +14770,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5345917472262874702
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6689341607354839978}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000037252903, z: 0.00057}
 --- !u!1 &6806438078742459890
 GameObject:
   m_ObjectHideFlags: 0
@@ -16541,7 +14781,7 @@ GameObject:
   - component: {fileID: 2274930431930389650}
   - component: {fileID: 6365782539859011927}
   - component: {fileID: 1732448536057811271}
-  - component: {fileID: 6034764364161779740}
+  - component: {fileID: 2718091590363336207}
   m_Layer: 0
   m_Name: yellowLego (36)
   m_TagString: Bound
@@ -16615,7 +14855,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6034764364161779740
+--- !u!65 &2718091590363336207
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16634,8 +14874,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 4.6566184e-10, y: -1.698734e-11, z: 0.00057000015}
+  m_Size: {x: 0.0015799808, y: 0.041109253, z: 0.0031236522}
+  m_Center: {x: 3.7252257e-10, y: -0.01896462, z: 0.0015618262}
 --- !u!1 &6845427662415246821
 GameObject:
   m_ObjectHideFlags: 0
@@ -16647,7 +14887,6 @@ GameObject:
   - component: {fileID: 8877874265196467167}
   - component: {fileID: 3446695483911307308}
   - component: {fileID: 6439050658146887428}
-  - component: {fileID: 6491555891401684076}
   m_Layer: 0
   m_Name: yellowLego (95)
   m_TagString: Bound
@@ -16721,27 +14960,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6491555891401684076
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6845427662415246821}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &6853085728191459817
 GameObject:
   m_ObjectHideFlags: 0
@@ -16837,7 +15055,6 @@ GameObject:
   - component: {fileID: 4177356660379533193}
   - component: {fileID: 4109308245047733457}
   - component: {fileID: 1741356887079560709}
-  - component: {fileID: 6629049617795170068}
   m_Layer: 0
   m_Name: yellowLego (47)
   m_TagString: Bound
@@ -16911,27 +15128,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6629049617795170068
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6862787133938112601}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: 8.784837e-10, y: -5.1548214e-11, z: 0.00057000003}
 --- !u!1 &6893772485276236542
 GameObject:
   m_ObjectHideFlags: 0
@@ -17279,7 +15475,6 @@ GameObject:
   - component: {fileID: 7468619420188003318}
   - component: {fileID: 4139384806921355562}
   - component: {fileID: 1567740950649031064}
-  - component: {fileID: 2384257013992802759}
   m_Layer: 0
   m_Name: yellowLego (119)
   m_TagString: Bound
@@ -17353,27 +15548,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2384257013992802759
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7058286068308119229}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 1.1641532e-10, y: 0, z: 0.0005700001}
 --- !u!1 &7061067979881802334
 GameObject:
   m_ObjectHideFlags: 0
@@ -18057,7 +16231,6 @@ GameObject:
   - component: {fileID: 2683920335000377639}
   - component: {fileID: 5292487853354093044}
   - component: {fileID: 5463590662786075891}
-  - component: {fileID: 853515056591570881}
   m_Layer: 0
   m_Name: yellowLego (15)
   m_TagString: Bound
@@ -18131,27 +16304,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &853515056591570881
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7318857672069574483}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 1.4884091e-16, y: 0.000000003708303, z: 0.00057000015}
 --- !u!1 &7334514610507246904
 GameObject:
   m_ObjectHideFlags: 0
@@ -18247,7 +16399,6 @@ GameObject:
   - component: {fileID: 1186585045403039459}
   - component: {fileID: 5755382639783279668}
   - component: {fileID: 172584970043582448}
-  - component: {fileID: 6927310259742800882}
   m_Layer: 0
   m_Name: yellowLego (100)
   m_TagString: Bound
@@ -18321,27 +16472,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6927310259742800882
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7381778077726336665}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: 0.0000000018456578, z: 0.00057000003}
 --- !u!1 &7402638545203646391
 GameObject:
   m_ObjectHideFlags: 0
@@ -18353,7 +16483,7 @@ GameObject:
   - component: {fileID: 1132486832781150335}
   - component: {fileID: 8945924237308147280}
   - component: {fileID: 5387593057668810484}
-  - component: {fileID: 909181663426395781}
+  - component: {fileID: 6847768297029332331}
   m_Layer: 0
   m_Name: yellowLego (14)
   m_TagString: Bound
@@ -18427,7 +16557,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &909181663426395781
+--- !u!65 &6847768297029332331
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18446,8 +16576,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.000000001862645, y: 0.000000003708303, z: 0.00057000003}
+  m_Size: {x: 0.0015799808, y: 0.0077168974, z: 0.0029147777}
+  m_Center: {x: -0.0000000018626454, y: -0.002268468, z: 0.001457389}
 --- !u!1 &7409922518266728951
 GameObject:
   m_ObjectHideFlags: 0
@@ -18543,7 +16673,6 @@ GameObject:
   - component: {fileID: 4538658421636524519}
   - component: {fileID: 8225588127532643126}
   - component: {fileID: 8142421850264157521}
-  - component: {fileID: 5562414957841267669}
   m_Layer: 0
   m_Name: yellowLego (78)
   m_TagString: Bound
@@ -18617,27 +16746,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5562414957841267669
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7418288856358424630}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &7505375825265201876
 GameObject:
   m_ObjectHideFlags: 0
@@ -18817,7 +16925,6 @@ GameObject:
   - component: {fileID: 9222684814372021730}
   - component: {fileID: 1268161310048003133}
   - component: {fileID: 4551931572733866475}
-  - component: {fileID: 1140949944220820096}
   m_Layer: 0
   m_Name: yellowLego (121)
   m_TagString: Bound
@@ -18891,27 +16998,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1140949944220820096
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7528995200138690290}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.00057}
 --- !u!1 &7552301475495961649
 GameObject:
   m_ObjectHideFlags: 0
@@ -18923,7 +17009,6 @@ GameObject:
   - component: {fileID: 6051900153494789135}
   - component: {fileID: 921748961949532033}
   - component: {fileID: 5796512610682445029}
-  - component: {fileID: 4594226819905292706}
   m_Layer: 0
   m_Name: yellowLego (68)
   m_TagString: Bound
@@ -18997,27 +17082,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4594226819905292706
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7552301475495961649}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: -4.656613e-10, y: 0, z: 0.00057}
 --- !u!1 &7567281551172756607
 GameObject:
   m_ObjectHideFlags: 0
@@ -19029,7 +17093,6 @@ GameObject:
   - component: {fileID: 1896296974241699145}
   - component: {fileID: 2101641975974897918}
   - component: {fileID: 5257678693302713390}
-  - component: {fileID: 477024220168258995}
   m_Layer: 0
   m_Name: yellowLego (51)
   m_TagString: Bound
@@ -19103,27 +17166,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &477024220168258995
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7567281551172756607}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 1.1743216e-17, y: -3.240075e-17, z: 0.00057000015}
 --- !u!1 &7599932081800769914
 GameObject:
   m_ObjectHideFlags: 0
@@ -19135,7 +17177,6 @@ GameObject:
   - component: {fileID: 8475733495279549647}
   - component: {fileID: 3229711673582320375}
   - component: {fileID: 7808859978041076800}
-  - component: {fileID: 7674239205053453353}
   m_Layer: 0
   m_Name: yellowLego (63)
   m_TagString: Bound
@@ -19209,27 +17250,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7674239205053453353
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7599932081800769914}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0.0000000037252903, z: 0.0005700001}
 --- !u!1 &7655747357453744062
 GameObject:
   m_ObjectHideFlags: 0
@@ -19241,7 +17261,6 @@ GameObject:
   - component: {fileID: 8978496479100542794}
   - component: {fileID: 2839896774687276180}
   - component: {fileID: 4448392527768354184}
-  - component: {fileID: 7520240104971820516}
   m_Layer: 0
   m_Name: yellowLego (57)
   m_TagString: Bound
@@ -19315,27 +17334,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7520240104971820516
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7655747357453744062}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: 0.0000000018456578, z: 0.00057000003}
 --- !u!1 &7656569814487026567
 GameObject:
   m_ObjectHideFlags: 0
@@ -19347,7 +17345,6 @@ GameObject:
   - component: {fileID: 3451006901540716986}
   - component: {fileID: 1049819183981954511}
   - component: {fileID: 6230154944949948591}
-  - component: {fileID: 1573497797950659338}
   m_Layer: 0
   m_Name: yellowLego (19)
   m_TagString: Bound
@@ -19421,27 +17418,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1573497797950659338
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7656569814487026567}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.003179959, z: 0.0011400006}
-  m_Center: {x: -4.4015662e-16, y: -0.0000000019645692, z: 0.00057000003}
 --- !u!1 &7684957793723972317
 GameObject:
   m_ObjectHideFlags: 0
@@ -19789,7 +17765,6 @@ GameObject:
   - component: {fileID: 8384539742658519988}
   - component: {fileID: 1384301948520685634}
   - component: {fileID: 6174042237957331479}
-  - component: {fileID: 6277222939492223105}
   m_Layer: 0
   m_Name: yellowLego (83)
   m_TagString: Bound
@@ -19863,27 +17838,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6277222939492223105
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7805018704086442023}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &7887059592183196834
 GameObject:
   m_ObjectHideFlags: 0
@@ -19979,7 +17933,6 @@ GameObject:
   - component: {fileID: 75176993819965813}
   - component: {fileID: 4872485851762709928}
   - component: {fileID: 2466384163313152838}
-  - component: {fileID: 3909145948007959387}
   m_Layer: 0
   m_Name: yellowLego (85)
   m_TagString: Bound
@@ -20053,27 +18006,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3909145948007959387
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7892595708177922573}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -9.483099e-10, z: 0.00057000003}
 --- !u!1 &7947928995927717104
 GameObject:
   m_ObjectHideFlags: 0
@@ -20409,7 +18341,6 @@ GameObject:
   - component: {fileID: 3041543694894052093}
   - component: {fileID: 5273741203226732796}
   - component: {fileID: 4682591178245345871}
-  - component: {fileID: 6928972238776946681}
   m_Layer: 0
   m_Name: yellowLego (89)
   m_TagString: Bound
@@ -20483,27 +18414,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6928972238776946681
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7976678255915541712}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.3340266e-10, z: 0.00057000015}
 --- !u!1 &7981420991074383493
 GameObject:
   m_ObjectHideFlags: 0
@@ -20515,7 +18425,7 @@ GameObject:
   - component: {fileID: 2327380764886531549}
   - component: {fileID: 3591334312651299056}
   - component: {fileID: 6943082047545444286}
-  - component: {fileID: 4248552286648990755}
+  - component: {fileID: 132815793697655215}
   m_Layer: 0
   m_Name: yellowLego (23)
   m_TagString: Bound
@@ -20589,7 +18499,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4248552286648990755
+--- !u!65 &132815793697655215
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20608,8 +18518,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.003179959, z: 0.0011400006}
-  m_Center: {x: -0.0000000037252907, y: -0.0000000010332465, z: 0.00057000015}
+  m_Size: {x: 0.0015799814, y: 0.023511676, z: 0.0031819562}
+  m_Center: {x: -1.3866385e-15, y: -0.010165845, z: 0.0015909781}
 --- !u!1 &8026412519765947822
 GameObject:
   m_ObjectHideFlags: 0
@@ -20873,7 +18783,6 @@ GameObject:
   - component: {fileID: 7146394608096872719}
   - component: {fileID: 5157574684132549117}
   - component: {fileID: 1893586770710110195}
-  - component: {fileID: 1968327552051571021}
   m_Layer: 0
   m_Name: yellowLego (49)
   m_TagString: Bound
@@ -20947,27 +18856,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1968327552051571021
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8078588489638830061}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &8104436186273958154
 GameObject:
   m_ObjectHideFlags: 0
@@ -20979,7 +18867,6 @@ GameObject:
   - component: {fileID: 1902244544342313682}
   - component: {fileID: 6000832785755963339}
   - component: {fileID: 1033731815314796762}
-  - component: {fileID: 1682455017677956768}
   m_Layer: 0
   m_Name: yellowLego (16)
   m_TagString: Bound
@@ -21053,27 +18940,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1682455017677956768
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8104436186273958154}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 1.4884091e-16, y: 0.000000003708303, z: 0.00057000003}
 --- !u!1 &8171546959581662423
 GameObject:
   m_ObjectHideFlags: 0
@@ -21169,7 +19035,6 @@ GameObject:
   - component: {fileID: 3324964633811888805}
   - component: {fileID: 3425558977199608313}
   - component: {fileID: 6969770882059420200}
-  - component: {fileID: 908553374289256571}
   m_Layer: 0
   m_Name: yellowLego (105)
   m_TagString: Bound
@@ -21243,27 +19108,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &908553374289256571
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8179623094202404878}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &8180887135539287916
 GameObject:
   m_ObjectHideFlags: 0
@@ -21359,7 +19203,7 @@ GameObject:
   - component: {fileID: 7626827552446155349}
   - component: {fileID: 3395065924955086861}
   - component: {fileID: 5486492345689106906}
-  - component: {fileID: 7239329952159349055}
+  - component: {fileID: 2117663936334791487}
   m_Layer: 0
   m_Name: yellowLego (92)
   m_TagString: Bound
@@ -21433,7 +19277,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7239329952159349055
+--- !u!65 &2117663936334791487
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21452,8 +19296,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 1.1743216e-17, y: -3.240075e-17, z: 0.00057000027}
+  m_Size: {x: 0.0015799807, y: 0.009610872, z: 0.003831849}
+  m_Center: {x: -4.2641703e-17, y: 0.0032154615, z: 0.0019159256}
 --- !u!1 &8213596886152312616
 GameObject:
   m_ObjectHideFlags: 0
@@ -21465,7 +19309,6 @@ GameObject:
   - component: {fileID: 1562348761587802645}
   - component: {fileID: 4612752462213288423}
   - component: {fileID: 2779095661378690256}
-  - component: {fileID: 8181322363333215584}
   m_Layer: 0
   m_Name: yellowLego (8)
   m_TagString: Bound
@@ -21539,27 +19382,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8181322363333215584
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8213596886152312616}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0, y: 0, z: 0.0005700001}
 --- !u!1 &8213813736497482918
 GameObject:
   m_ObjectHideFlags: 0
@@ -21571,7 +19393,6 @@ GameObject:
   - component: {fileID: 7983229105822652651}
   - component: {fileID: 8942176673501344126}
   - component: {fileID: 3286475787102845513}
-  - component: {fileID: 6180580907531385653}
   m_Layer: 0
   m_Name: yellowLego (98)
   m_TagString: Bound
@@ -21645,27 +19466,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6180580907531385653
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8213813736497482918}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000003}
 --- !u!1 &8230833525444911810
 GameObject:
   m_ObjectHideFlags: 0
@@ -21761,7 +19561,6 @@ GameObject:
   - component: {fileID: 5678948125166659671}
   - component: {fileID: 4835284720988333653}
   - component: {fileID: 383962581350812892}
-  - component: {fileID: 6745787362888294485}
   m_Layer: 0
   m_Name: yellowLego (40)
   m_TagString: Bound
@@ -21835,27 +19634,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6745787362888294485
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8277869018082862957}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799595, z: 0.0011400003}
-  m_Center: {x: 9.313226e-10, y: -3.240075e-17, z: 0.00057000027}
 --- !u!1 &8279085625148235926
 GameObject:
   m_ObjectHideFlags: 0
@@ -21951,7 +19729,6 @@ GameObject:
   - component: {fileID: 2755665544299016009}
   - component: {fileID: 6686720580390765645}
   - component: {fileID: 4148278450439212135}
-  - component: {fileID: 260635610328183560}
   m_Layer: 0
   m_Name: yellowLego (86)
   m_TagString: Bound
@@ -22025,27 +19802,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &260635610328183560
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8316508003637551042}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: -5.2838886e-11, y: -9.828708e-10, z: 0.00057000003}
 --- !u!1 &8319653309795306235
 GameObject:
   m_ObjectHideFlags: 0
@@ -22141,7 +19897,7 @@ GameObject:
   - component: {fileID: 2178141791593071649}
   - component: {fileID: 3036219560724292907}
   - component: {fileID: 6714632573505933214}
-  - component: {fileID: 5207732703834997851}
+  - component: {fileID: 6618085979823252615}
   m_Layer: 0
   m_Name: yellowLego (122)
   m_TagString: Bound
@@ -22215,7 +19971,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5207732703834997851
+--- !u!65 &6618085979823252615
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22234,8 +19990,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 1.1641532e-10, y: 0, z: 0.00057}
+  m_Size: {x: 0.0015799807, y: 0.022182884, z: 0.0022876682}
+  m_Center: {x: 0, y: -0.009501486, z: 0.0011438348}
 --- !u!1 &8364341018090940198
 GameObject:
   m_ObjectHideFlags: 0
@@ -22331,7 +20087,6 @@ GameObject:
   - component: {fileID: 4797062878807168974}
   - component: {fileID: 8754730174738089524}
   - component: {fileID: 1577931106507559009}
-  - component: {fileID: 7533649728067434050}
   m_Layer: 0
   m_Name: yellowLego (97)
   m_TagString: Bound
@@ -22405,27 +20160,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7533649728067434050
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8431656040584427945}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -0.00000000745058, y: -0.0000000018796324, z: 0.00057000003}
 --- !u!1 &8438970182869648913
 GameObject:
   m_ObjectHideFlags: 0
@@ -22605,7 +20339,6 @@ GameObject:
   - component: {fileID: 2741950038780298289}
   - component: {fileID: 8219509765284934673}
   - component: {fileID: 5329630390781061801}
-  - component: {fileID: 5710975116795436135}
   m_Layer: 0
   m_Name: yellowLego (46)
   m_TagString: Bound
@@ -22679,27 +20412,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5710975116795436135
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8492391584501282059}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 5.4574995e-16, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &8513683105331011347
 GameObject:
   m_ObjectHideFlags: 0
@@ -22879,7 +20591,6 @@ GameObject:
   - component: {fileID: 1703779347166558109}
   - component: {fileID: 2295659734754052062}
   - component: {fileID: 7930802789701726999}
-  - component: {fileID: 4613127492049276602}
   m_Layer: 0
   m_Name: yellowLego (10)
   m_TagString: Bound
@@ -22953,27 +20664,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4613127492049276602
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8590708843263696730}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: 0.0000000037252903, y: 0, z: 0.00057}
 --- !u!1 &8646911815614381452
 GameObject:
   m_ObjectHideFlags: 0
@@ -22985,7 +20675,6 @@ GameObject:
   - component: {fileID: 3413264616162171941}
   - component: {fileID: 4214351406082365124}
   - component: {fileID: 7596740244133319936}
-  - component: {fileID: 1652976106716530604}
   m_Layer: 0
   m_Name: yellowLego (31)
   m_TagString: Bound
@@ -23059,27 +20748,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1652976106716530604
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8646911815614381452}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: -5.8207605e-10, y: -1.698734e-11, z: 0.00057000015}
 --- !u!1 &8651080932058745319
 GameObject:
   m_ObjectHideFlags: 0
@@ -23091,7 +20759,7 @@ GameObject:
   - component: {fileID: 8467948987953115905}
   - component: {fileID: 1156237681839969529}
   - component: {fileID: 3417494025070235570}
-  - component: {fileID: 6950038686146872956}
+  - component: {fileID: 6045680830239955946}
   m_Layer: 0
   m_Name: yellowLego (41)
   m_TagString: Bound
@@ -23165,7 +20833,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6950038686146872956
+--- !u!65 &6045680830239955946
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23184,8 +20852,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 9.313231e-10, y: -1.698734e-11, z: 0.00057000003}
+  m_Size: {x: 0.0015799808, y: 0.033455923, z: 0.0025828143}
+  m_Center: {x: 9.68578e-10, y: 0.015137966, z: 0.0012914073}
 --- !u!1 &8680474117876792982
 GameObject:
   m_ObjectHideFlags: 0
@@ -23449,7 +21117,6 @@ GameObject:
   - component: {fileID: 226927661732449906}
   - component: {fileID: 2366529024826327491}
   - component: {fileID: 1011379133956296872}
-  - component: {fileID: 22983138075695610}
   m_Layer: 0
   m_Name: yellowLego (74)
   m_TagString: Bound
@@ -23523,27 +21190,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &22983138075695610
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8820202303389782448}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0031799583, z: 0.00114}
-  m_Center: {x: -4.656613e-10, y: 0.0000000018626451, z: 0.0005700001}
 --- !u!1 &8832250147442638241
 GameObject:
   m_ObjectHideFlags: 0
@@ -23555,7 +21201,6 @@ GameObject:
   - component: {fileID: 6607144598713047117}
   - component: {fileID: 3216656299325978814}
   - component: {fileID: 7778907862480031243}
-  - component: {fileID: 4215706348280465759}
   m_Layer: 0
   m_Name: yellowLego (59)
   m_TagString: Bound
@@ -23629,27 +21274,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4215706348280465759
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8832250147442638241}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: -0.000000001915484, y: -5.1548214e-11, z: 0.00057000003}
 --- !u!1 &8871219414195157429
 GameObject:
   m_ObjectHideFlags: 0
@@ -23997,7 +21621,7 @@ GameObject:
   - component: {fileID: 1514020631540473042}
   - component: {fileID: 264963117200754025}
   - component: {fileID: 6259054264921235272}
-  - component: {fileID: 5054776491519219936}
+  - component: {fileID: 3280988184859123106}
   m_Layer: 0
   m_Name: yellowLego (102)
   m_TagString: Bound
@@ -24071,7 +21695,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5054776491519219936
+--- !u!65 &3280988184859123106
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24090,8 +21714,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.0031799595, z: 0.0011400005}
-  m_Center: {x: -5.2838886e-11, y: -9.828708e-10, z: 0.0005699999}
+  m_Size: {x: 0.0015799814, y: 0.031221444, z: 0.0032899105}
+  m_Center: {x: -5.901937e-11, y: -0.014020906, z: 0.0016449552}
 --- !u!1 &9220880259235353343
 GameObject:
   m_ObjectHideFlags: 0
@@ -24103,7 +21727,6 @@ GameObject:
   - component: {fileID: 2150087897584699710}
   - component: {fileID: 1674812277587485199}
   - component: {fileID: 8139262754617626287}
-  - component: {fileID: 2714621192254736750}
   m_Layer: 0
   m_Name: yellowLego (35)
   m_TagString: Bound
@@ -24177,27 +21800,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2714621192254736750
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9220880259235353343}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0031799588, z: 0.0011400002}
-  m_Center: {x: 8.149078e-10, y: 9.143352e-10, z: 0.00057000015}
 --- !u!1001 &1608441856123049465
 PrefabInstance:
   m_ObjectHideFlags: 0
