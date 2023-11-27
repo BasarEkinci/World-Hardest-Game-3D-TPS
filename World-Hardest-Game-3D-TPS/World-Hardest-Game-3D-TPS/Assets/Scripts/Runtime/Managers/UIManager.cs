@@ -1,8 +1,6 @@
-using System;
 using DG.Tweening;
 using Runtime.Signals;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace Runtime.Managers
 {
@@ -32,10 +30,17 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnLevelComplete -= OnLevelComplete;
             PlayerSignals.Instance.OnPlayerCrash -= OnPlayerCrash;
         }
-
         private void OnPlayerCrash()
         {
             _crushCounter++;
+        }
+        
+        private void OnLevelComplete()
+        {
+            if(_levelCounter < 4)
+                winPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+            else
+                endGamePanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
         }
         
         public void StartGame()
@@ -47,7 +52,10 @@ namespace Runtime.Managers
         {
             _levelCounter = 1;
             _crushCounter = 0;
-            SceneManager.LoadScene(0);
+            startPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+            endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
+            CoreGameSignals.Instance.OnGameRestart?.Invoke();
+            CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
         }
         public void NextLevel()
         {
@@ -58,12 +66,6 @@ namespace Runtime.Managers
             _levelCounter++;
         }
 
-        private void OnLevelComplete()
-        {
-            if(_levelCounter < 4)
-                winPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
-            else
-                endGamePanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
-        }
+
     }
 }

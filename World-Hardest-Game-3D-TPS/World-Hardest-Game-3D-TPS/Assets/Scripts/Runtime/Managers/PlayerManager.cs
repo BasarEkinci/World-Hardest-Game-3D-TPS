@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using Runtime.Controllers.Player;
+﻿using Runtime.Controllers.Player;
 using Runtime.Signals;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Runtime.Managers
@@ -11,13 +11,15 @@ namespace Runtime.Managers
         [SerializeField] private PlayerAnimationController playerAnimationController;
         [SerializeField] private Transform checkPoint;
 
-        private bool _canMove = true;
+        private bool _canMove;
         private Rigidbody _rigidbody;
         private void OnEnable()
         {
             PlayerSignals.Instance.OnPlayerCrash += OnPlayerCrash;
             CoreGameSignals.Instance.OnLevelComplete += OnLevelComplete;
             CoreGameSignals.Instance.OnNextLevel += OnNextLevel;
+            CoreGameSignals.Instance.OnGameStart += OnGameStart;
+            CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
         }
 
         private void Awake()
@@ -25,11 +27,28 @@ namespace Runtime.Managers
             _rigidbody = GetComponent<Rigidbody>();
         }
 
+        private void Update()
+        {
+            if(!_canMove) return;
+            playerMovementController.Move();
+            playerAnimationController.SetAnimation();
+
+            if (!Input.anyKey)
+                _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
+        }
+        
         private void OnDisable()
         {
             PlayerSignals.Instance.OnPlayerCrash -= OnPlayerCrash;
             CoreGameSignals.Instance.OnLevelComplete -= OnLevelComplete;
             CoreGameSignals.Instance.OnNextLevel -= OnNextLevel;
+            CoreGameSignals.Instance.OnGameStart -= OnGameStart;
+            CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+        }
+        
+        private void OnGameStart()
+        {
+            _canMove = true;
         }
 
         private void OnNextLevel()
@@ -40,26 +59,17 @@ namespace Runtime.Managers
 
         private void OnLevelComplete()
         {
-            StartCoroutine(WinCoolDown());
+            _canMove = false;
         }
-        IEnumerator WinCoolDown()
+        private void OnGameRestart()
         {
-            yield return new WaitForSeconds(1f);
+            transform.position = checkPoint.position;
             _canMove = false;
         }
         private void OnPlayerCrash()
         {
             transform.position = checkPoint.position;
         }
-
-        private void Update()
-        {
-            if(!_canMove) return;
-            playerMovementController.Move();
-            playerAnimationController.SetAnimation();
-
-            if (!Input.anyKey)
-                _rigidbody.constraints = RigidbodyConstraints.FreezePosition;
-        }
+        
     }
 }
