@@ -1,3 +1,4 @@
+using System.Collections;
 using DG.Tweening;
 using Runtime.Signals;
 using UnityEngine;
@@ -52,8 +53,16 @@ namespace Runtime.Managers
         {
             _levelCounter = 1;
             _crushCounter = 0;
-            startPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
-            endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
+            endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
+                OnComplete(RestartActions);
+        }
+        private void RestartActions()
+        {
+            startPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).
+                OnComplete(RestartSignals);
+        }
+        private void RestartSignals()
+        {
             CoreGameSignals.Instance.OnGameRestart?.Invoke();
             CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
         }
