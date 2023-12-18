@@ -25,7 +25,7 @@ namespace Runtime.Controllers.Level
             {
                 gameObject.GetComponent<Collider>().enabled = false;
                 PlayerSignals.Instance.OnPlayerCollectPoint?.Invoke();
-                SoundManager.Instance.PlayEffect(0);
+                SoundManager.Instance.PlaySound(0);
                 pointObject.SetActive(false);
             }
         }           
