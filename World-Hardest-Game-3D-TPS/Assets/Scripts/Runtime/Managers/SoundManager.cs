@@ -1,19 +1,15 @@
-using System.Collections.Generic;
+using Runtime.Extentions;
 using Runtime.Signals;
 using UnityEngine;
 
 namespace Runtime.Managers
 {
-    public class SoundManager : MonoBehaviour
+    public class SoundManager : MonoSingelton<SoundManager>
     {
+        [SerializeField] private AudioClip[] audioClips;
         private AudioSource[] _audios;
-
-        private void OnEnable()
-        {
-            CoreGameSignals.Instance.OnGameStart += OnGameStart;
-            CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
-        }
-        private void Awake()
+        
+        private new void Awake()
         {
             _audios = GetComponentsInChildren<AudioSource>();
         }
@@ -21,20 +17,20 @@ namespace Runtime.Managers
         {
             _audios[0].Play();
         }
-        private void OnDisable()
+        public void PlayGame()
         {
-            CoreGameSignals.Instance.OnGameStart -= OnGameStart;
-            CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+            _audios[0].Stop();
+            _audios[1].Play();
         }
-        private void OnGameRestart()
+        public void RestartGame()
         {
             _audios[1].Stop();
             _audios[0].Play();
         }
-        private void OnGameStart()
+
+        public void PlayEffect(int index)
         {
-            _audios[0].Stop();
-            _audios[1].Play();
+            _audios[2].PlayOneShot(audioClips[index]);
         }
     }   
 }

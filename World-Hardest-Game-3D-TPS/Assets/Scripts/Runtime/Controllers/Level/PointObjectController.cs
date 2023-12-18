@@ -1,5 +1,6 @@
 ﻿using System;
 using DG.Tweening;
+using Runtime.Managers;
 using Runtime.Signals;
 using UnityEngine;
 
@@ -24,6 +25,7 @@ namespace Runtime.Controllers.Level
             {
                 gameObject.GetComponent<Collider>().enabled = false;
                 PlayerSignals.Instance.OnPlayerCollectPoint?.Invoke();
+                SoundManager.Instance.PlayEffect(0);
                 pointObject.SetActive(false);
             }
         }           

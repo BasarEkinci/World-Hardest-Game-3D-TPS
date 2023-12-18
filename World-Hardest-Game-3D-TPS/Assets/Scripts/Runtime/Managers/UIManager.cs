@@ -55,6 +55,7 @@ namespace Runtime.Managers
         public void StartGame()
         {
             CoreGameSignals.Instance.OnGameStart?.Invoke();
+            SoundManager.Instance.PlayGame();
             startPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
         }
         public void MainMenu()
@@ -63,6 +64,7 @@ namespace Runtime.Managers
             _crushCounter = 0;
             endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
                 OnComplete(() => StartCoroutine(RestartActions()));
+            SoundManager.Instance.RestartGame();
         }
         public void NextLevel()
         {
