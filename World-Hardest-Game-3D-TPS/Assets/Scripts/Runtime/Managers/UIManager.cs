@@ -1,16 +1,21 @@
 using System.Collections;
 using DG.Tweening;
 using Runtime.Signals;
+using TMPro;
 using UnityEngine;
 
 namespace Runtime.Managers
 {
     public class UIManager : MonoBehaviour
-    {
+    {   
+        [Header("Buttons")]
         [SerializeField] private GameObject winPanel;
         [SerializeField] private GameObject startPanel;
         [SerializeField] private GameObject endGamePanel;
 
+        [Header("Texts")] 
+        [SerializeField] private TMP_Text levelText;
+        
         private int _crushCounter;
         private int _levelCounter;
         private void OnEnable()
@@ -24,6 +29,8 @@ namespace Runtime.Managers
             _crushCounter = 0;
             _levelCounter = 1;
             startPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+            winPanel.transform.DOScale(Vector3.zero, 0.1f).SetEase(Ease.Linear);
+            endGamePanel.transform.DOScale(Vector3.zero, 0.1f).SetEase(Ease.Linear);
         }
 
         private void OnDisable()
@@ -42,8 +49,9 @@ namespace Runtime.Managers
                 winPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
             else
                 endGamePanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+
+            levelText.text = "Level " + _levelCounter + "\nCompleted";
         }
-        
         public void StartGame()
         {
             CoreGameSignals.Instance.OnGameStart?.Invoke();
@@ -54,17 +62,7 @@ namespace Runtime.Managers
             _levelCounter = 1;
             _crushCounter = 0;
             endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
-                OnComplete(RestartActions);
-        }
-        private void RestartActions()
-        {
-            startPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).
-                OnComplete(RestartSignals);
-        }
-        private void RestartSignals()
-        {
-            CoreGameSignals.Instance.OnGameRestart?.Invoke();
-            CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
+                OnComplete(() => StartCoroutine(RestartActions()));
         }
         public void NextLevel()
         {
@@ -74,7 +72,12 @@ namespace Runtime.Managers
             winPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
             _levelCounter++;
         }
-
-
+        private IEnumerator RestartActions()
+        {
+            CoreGameSignals.Instance.OnGameRestart?.Invoke();
+            yield return new WaitForSeconds(1.5f);
+            startPanel.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack).
+                OnComplete(() => CoreGameSignals.Instance.OnClearActiveLevel?.Invoke());
+        }
     }
 }

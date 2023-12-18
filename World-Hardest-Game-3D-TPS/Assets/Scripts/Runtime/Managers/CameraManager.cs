@@ -58,7 +58,7 @@ public class CameraManager : MonoBehaviour
     {
         startCam.SetActive(true);
         gameCam.SetActive(false);
-        yield return _waitTime;
+        yield return new WaitForSeconds(0);
         startCam.transform.DOMove(_startCamFirstPos, 0.2f).SetEase(Ease.Linear)
             .OnComplete(() => startCam.transform.DORotate(_startCamFirstRotation, 1f));
     }
