@@ -1,5 +1,4 @@
 using Runtime.Extentions;
-using Runtime.Signals;
 using UnityEngine;
 
 namespace Runtime.Managers
@@ -28,7 +27,7 @@ namespace Runtime.Managers
             _audios[0].Play();
         }
 
-        public void PlayEffect(int index)
+        public void PlaySound(int index)
         {
             _audios[2].PlayOneShot(audioClips[index]);
         }
