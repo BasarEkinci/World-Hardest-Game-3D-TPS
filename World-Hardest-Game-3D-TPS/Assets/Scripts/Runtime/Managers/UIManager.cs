@@ -3,6 +3,8 @@ using DG.Tweening;
 using Runtime.Signals;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
 namespace Runtime.Managers
 {
@@ -15,9 +17,13 @@ namespace Runtime.Managers
 
         [Header("Texts")] 
         [SerializeField] private TMP_Text levelText;
+
+        [SerializeField] private VolumeProfile globalVolume;
         
         private int _crushCounter;
         private int _levelCounter;
+        
+        
         private void OnEnable()
         {
             CoreGameSignals.Instance.OnLevelComplete += OnLevelComplete;
@@ -32,7 +38,6 @@ namespace Runtime.Managers
             winPanel.transform.DOScale(Vector3.zero, 0.1f).SetEase(Ease.Linear);
             endGamePanel.transform.DOScale(Vector3.zero, 0.1f).SetEase(Ease.Linear);
         }
-
         private void OnDisable()
         {
             CoreGameSignals.Instance.OnLevelComplete -= OnLevelComplete;
@@ -55,8 +60,10 @@ namespace Runtime.Managers
         public void StartGame()
         {
             CoreGameSignals.Instance.OnGameStart?.Invoke();
-            SoundManager.Instance.PlayGame();
+            //SoundManager.Instance.PlayGame();
             startPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
+            globalVolume.TryGet(out DepthOfField depthOfField);
+            depthOfField.mode.overrideState = false;
         }
         public void MainMenu()
         {
@@ -65,6 +72,8 @@ namespace Runtime.Managers
             endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
                 OnComplete(() => StartCoroutine(RestartActions()));
             SoundManager.Instance.RestartGame();
+            globalVolume.TryGet(out DepthOfField depthOfField);
+            depthOfField.mode.overrideState = true;
         }
         public void NextLevel()
         {

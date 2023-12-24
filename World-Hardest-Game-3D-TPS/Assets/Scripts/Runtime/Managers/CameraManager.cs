@@ -18,7 +18,7 @@ public class CameraManager : MonoBehaviour
     private void Start()
     {
         _startCamLastRotation = new Vector3(45.699f, 0, 0);
-        _startCamFirstRotation = new Vector3(0, -90f, 0);
+        _startCamFirstRotation = new Vector3(20, -20f, 0);
         _startCamFirstPos = new Vector3(-6, 6, -20);
         _startCamLastPos = gameCam.transform.position;
     }
