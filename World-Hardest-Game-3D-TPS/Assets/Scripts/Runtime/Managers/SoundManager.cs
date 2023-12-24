@@ -37,13 +37,13 @@ namespace Runtime.Managers
 
         private void OnGameStart()
         {
-            _audios[1].Play();
             _audios[0].Stop();
+            _audios[1].Play();
         }
         private void OnGameRestart()
         {
-            _audios[0].Play();
             _audios[1].Stop();
+            _audios[0].Play();
         }
         private void OnPlayerCollectPoint()
         {

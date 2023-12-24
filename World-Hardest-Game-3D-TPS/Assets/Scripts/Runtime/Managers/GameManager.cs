@@ -1,12 +1,20 @@
-﻿using Runtime.Signals;
+﻿using System;
+using Runtime.Signals;
 using UnityEngine;
 
 namespace Runtime.Managers
 {
     public class GameManager : MonoBehaviour
     {
-        //[SerializeField] private VolumeProfile globalVolume;
-        
+        private Animator _animator;
+        private int _startGame = Animator.StringToHash("StartGame");
+        private int _restratGame = Animator.StringToHash("RestartGame");
+
+        private void Awake()
+        {
+            _animator = GetComponent<Animator>();
+        }
+
         private void OnEnable()
         {
             CoreGameSignals.Instance.OnGameStart += OnGameStart;
@@ -23,11 +31,13 @@ namespace Runtime.Managers
         }
         private void OnGameStart()
         {
-            
+            _animator.SetBool(_startGame,true);
+            _animator.SetBool(_restratGame,false);
         }
         private void OnGameRestart()
         {
-            
+            _animator.SetBool(_startGame,false);
+            _animator.SetBool(_restratGame,true);
         }
     }
 }
