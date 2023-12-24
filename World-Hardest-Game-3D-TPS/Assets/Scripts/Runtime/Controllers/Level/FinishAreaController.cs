@@ -32,7 +32,6 @@ namespace Runtime.Controllers.Level
         private void OnPlayerCollectPoint()
         {
             _currentObjectCount++;
-            SoundManager.Instance.PlaySound(0);
         }
 
         private void OnPlayerCrash()

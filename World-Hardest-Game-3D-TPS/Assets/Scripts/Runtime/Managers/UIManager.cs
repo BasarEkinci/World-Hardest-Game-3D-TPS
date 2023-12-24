@@ -3,8 +3,6 @@ using DG.Tweening;
 using Runtime.Signals;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.Rendering.Universal;
 
 namespace Runtime.Managers
 {
@@ -17,8 +15,6 @@ namespace Runtime.Managers
 
         [Header("Texts")] 
         [SerializeField] private TMP_Text levelText;
-
-        [SerializeField] private VolumeProfile globalVolume;
         
         private int _crushCounter;
         private int _levelCounter;
@@ -60,20 +56,15 @@ namespace Runtime.Managers
         public void StartGame()
         {
             CoreGameSignals.Instance.OnGameStart?.Invoke();
-            //SoundManager.Instance.PlayGame();
             startPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
-            globalVolume.TryGet(out DepthOfField depthOfField);
-            depthOfField.mode.overrideState = false;
         }
         public void MainMenu()
         {
+            CoreGameSignals.Instance.OnGameRestart?.Invoke();
             _levelCounter = 1;
             _crushCounter = 0;
             endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
                 OnComplete(() => StartCoroutine(RestartActions()));
-            SoundManager.Instance.RestartGame();
-            globalVolume.TryGet(out DepthOfField depthOfField);
-            depthOfField.mode.overrideState = true;
         }
         public void NextLevel()
         {

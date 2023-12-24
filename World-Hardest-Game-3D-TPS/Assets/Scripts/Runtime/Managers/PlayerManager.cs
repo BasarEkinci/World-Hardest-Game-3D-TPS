@@ -74,7 +74,6 @@ namespace Runtime.Managers
         private void OnPlayerCrash()
         {
             transform.position = checkPoint.position;
-            SoundManager.Instance.PlaySound(1);
         }
     }
 }
