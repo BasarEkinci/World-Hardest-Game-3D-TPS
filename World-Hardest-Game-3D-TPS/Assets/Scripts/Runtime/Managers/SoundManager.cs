@@ -27,7 +27,6 @@ namespace Runtime.Managers
             _audioSource.clip = audioClips[2];
             _audioSource.Play();
         }
-
         private void OnDisable()
         {
             PlayerSignals.Instance.OnPlayerCrash -= OnPlayerCrash;

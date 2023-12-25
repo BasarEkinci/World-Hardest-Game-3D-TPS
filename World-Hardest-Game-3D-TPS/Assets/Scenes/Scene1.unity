@@ -309,6 +309,8 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: 2adaf9352efc04682a96ac1d5356bb87, type: 3}
   - {fileID: 8300000, guid: a4adc4032bfac4182bb05f313bef3aa3, type: 3}
+  - {fileID: 8300000, guid: ab9e46d9c83a54a3bb44312785ee7553, type: 3}
+  - {fileID: 8300000, guid: 139072005a9604c148ff00b39f4f59f4, type: 3}
 --- !u!82 &68133004
 AudioSource:
   m_ObjectHideFlags: 0
@@ -318,12 +320,13 @@ AudioSource:
   m_GameObject: {fileID: 68133000}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 5a0b14599b4b54d31b3cddb1b1cdf13e,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -941,7 +944,6 @@ GameObject:
   m_Component:
   - component: {fileID: 395460625}
   - component: {fileID: 395460627}
-  - component: {fileID: 395460626}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -964,27 +966,6 @@ Transform:
   m_Father: {fileID: 951414155}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &395460626
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395460624}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 64c193c6e85424b9a96b49f29185cbec, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &395460627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -997,6 +978,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 934612fe4349427ea4befebb9d8da19a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  globalVolume: {fileID: 636927237}
 --- !u!1 &402443949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,7 +1331,7 @@ MonoBehaviour:
   m_IsGlobal: 1
   priority: 7.68
   blendDistance: 0
-  weight: 0.013
+  weight: 1
   sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
 --- !u!95 &636927240
 Animator:

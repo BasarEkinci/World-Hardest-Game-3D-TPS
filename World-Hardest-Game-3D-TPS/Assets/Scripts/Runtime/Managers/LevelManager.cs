@@ -1,5 +1,4 @@
-﻿using System;
-using Runtime.Commands;
+﻿using Runtime.Commands;
 using Runtime.Signals;
 using UnityEngine;
 

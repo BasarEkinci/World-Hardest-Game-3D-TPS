@@ -1,5 +1,4 @@
 ﻿using Runtime.Signals;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Runtime.Managers
@@ -25,8 +24,6 @@ namespace Runtime.Managers
         private void Start()
         {
             Application.targetFrameRate = 60;
-            print(_startGame);
-            print(_restratGame);
         }
         private void OnDisable()
         {
@@ -37,9 +34,6 @@ namespace Runtime.Managers
         {
             _animator.SetBool(_startGame,true);
             _animator.SetBool(_restratGame,false);
-            print("Game Started");
-            print(_startGame);
-            print(_restratGame);
         }
         private void OnGameRestart()
         {
