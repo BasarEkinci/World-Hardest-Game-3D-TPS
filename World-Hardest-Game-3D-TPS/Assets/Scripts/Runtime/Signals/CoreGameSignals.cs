@@ -9,6 +9,6 @@ namespace Runtime.Signals
         public UnityAction OnClearActiveLevel = delegate {  };
         public UnityAction OnLoadLevel = delegate {  };
         public UnityAction OnGameStart = delegate {  };
-        public UnityAction OnNextLevel = delegate {  }; 
+        public UnityAction OnNextLevel = delegate {  };
     }
 }

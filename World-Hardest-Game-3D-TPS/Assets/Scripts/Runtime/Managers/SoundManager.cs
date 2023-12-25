@@ -7,12 +7,12 @@ namespace Runtime.Managers
     {
         [SerializeField] private AudioClip[] audioClips;
         private AudioSource[] _audios;
-        private AudioSource _soundEffects;
+        private AudioSource _audioSource;
         
         private void Awake()
         {
             _audios = GetComponentsInChildren<AudioSource>();
-            _soundEffects = GetComponent<AudioSource>();
+            _audioSource = GetComponent<AudioSource>();
         }
 
         private void OnEnable()
@@ -24,7 +24,8 @@ namespace Runtime.Managers
         }
         private void Start()
         {
-            _audios[0].Play();
+            _audioSource.clip = audioClips[2];
+            _audioSource.Play();
         }
 
         private void OnDisable()
@@ -37,21 +38,21 @@ namespace Runtime.Managers
 
         private void OnGameStart()
         {
-            _audios[0].Stop();
-            _audios[1].Play();
+            _audioSource.clip = audioClips[3];
+            _audioSource.Play();
         }
         private void OnGameRestart()
         {
-            _audios[1].Stop();
-            _audios[0].Play();
+            _audioSource.clip = audioClips[2];
+            _audioSource.Play();
         }
         private void OnPlayerCollectPoint()
         {
-            _soundEffects.PlayOneShot(audioClips[0]);
+            _audioSource.PlayOneShot(audioClips[0]);
         }
         private void OnPlayerCrash()
         {
-            _soundEffects.PlayOneShot(audioClips[1]);
+            _audioSource.PlayOneShot(audioClips[1]);
         }
     }   
 }
