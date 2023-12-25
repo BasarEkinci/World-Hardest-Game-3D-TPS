@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using Runtime.Signals;
 using UnityEngine;
 
@@ -6,12 +8,10 @@ namespace Runtime.Managers
     public class SoundManager : MonoBehaviour
     {
         [SerializeField] private AudioClip[] audioClips;
-        private AudioSource[] _audios;
         private AudioSource _audioSource;
         
         private void Awake()
         {
-            _audios = GetComponentsInChildren<AudioSource>();
             _audioSource = GetComponent<AudioSource>();
         }
 
@@ -24,8 +24,7 @@ namespace Runtime.Managers
         }
         private void Start()
         {
-            _audioSource.clip = audioClips[2];
-            _audioSource.Play();
+            StartCoroutine(LoadAndPlayMusic(audioClips[2]));
         }
         private void OnDisable()
         {
@@ -37,13 +36,11 @@ namespace Runtime.Managers
 
         private void OnGameStart()
         {
-            _audioSource.clip = audioClips[3];
-            _audioSource.Play();
+            StartCoroutine(LoadAndPlayMusic(audioClips[3]));
         }
         private void OnGameRestart()
         {
-            _audioSource.clip = audioClips[2];
-            _audioSource.Play();
+            StartCoroutine(LoadAndPlayMusic(audioClips[2]));
         }
         private void OnPlayerCollectPoint()
         {
@@ -52,6 +49,18 @@ namespace Runtime.Managers
         private void OnPlayerCrash()
         {
             _audioSource.PlayOneShot(audioClips[1]);
+        }
+        
+        private IEnumerator LoadAndPlayMusic(AudioClip musicClip)
+        {
+            var request = Resources.LoadAsync<AudioClip>($"Sounds/{musicClip.name}");
+            
+            while (!request.isDone)
+            {
+                yield return null;
+            }
+            _audioSource.clip = (AudioClip)request.asset;
+            _audioSource.Play();
         }
     }   
 }
