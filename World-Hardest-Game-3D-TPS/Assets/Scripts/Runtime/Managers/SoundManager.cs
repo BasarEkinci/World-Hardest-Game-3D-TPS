@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using Runtime.Signals;
 using UnityEngine;
 
@@ -9,7 +7,7 @@ namespace Runtime.Managers
     {
         [SerializeField] private AudioClip[] audioClips;
         private AudioSource _audioSource;
-        
+
         private void Awake()
         {
             _audioSource = GetComponent<AudioSource>();
@@ -19,28 +17,15 @@ namespace Runtime.Managers
         {
             PlayerSignals.Instance.OnPlayerCrash += OnPlayerCrash;
             PlayerSignals.Instance.OnPlayerCollectPoint += OnPlayerCollectPoint;
-            CoreGameSignals.Instance.OnGameStart += OnGameStart;
-            CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
-        }
-        private void Start()
-        {
-            StartCoroutine(LoadAndPlayMusic(audioClips[2]));
+            //CoreGameSignals.Instance.OnGameStart += OnGameStart;
+            //CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
         }
         private void OnDisable()
         {
             PlayerSignals.Instance.OnPlayerCrash -= OnPlayerCrash;
             PlayerSignals.Instance.OnPlayerCollectPoint -= OnPlayerCollectPoint;
-            CoreGameSignals.Instance.OnGameStart -= OnGameStart;
-            CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
-        }
-
-        private void OnGameStart()
-        {
-            StartCoroutine(LoadAndPlayMusic(audioClips[3]));
-        }
-        private void OnGameRestart()
-        {
-            StartCoroutine(LoadAndPlayMusic(audioClips[2]));
+            //CoreGameSignals.Instance.OnGameStart -= OnGameStart;
+            //CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
         }
         private void OnPlayerCollectPoint()
         {
@@ -49,18 +34,6 @@ namespace Runtime.Managers
         private void OnPlayerCrash()
         {
             _audioSource.PlayOneShot(audioClips[1]);
-        }
-        
-        private IEnumerator LoadAndPlayMusic(AudioClip musicClip)
-        {
-            var request = Resources.LoadAsync<AudioClip>($"Sounds/{musicClip.name}");
-            
-            while (!request.isDone)
-            {
-                yield return null;
-            }
-            _audioSource.clip = (AudioClip)request.asset;
-            _audioSource.Play();
         }
     }   
 }
