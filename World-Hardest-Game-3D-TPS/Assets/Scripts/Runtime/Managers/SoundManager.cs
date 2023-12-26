@@ -1,3 +1,4 @@
+using System;
 using Runtime.Signals;
 using UnityEngine;
 
@@ -13,19 +14,39 @@ namespace Runtime.Managers
             _audioSource = GetComponent<AudioSource>();
         }
 
+        private void Start()
+        {
+            _audioSource.clip = audioClips[2];
+        }
+
         private void OnEnable()
         {
             PlayerSignals.Instance.OnPlayerCrash += OnPlayerCrash;
             PlayerSignals.Instance.OnPlayerCollectPoint += OnPlayerCollectPoint;
-            //CoreGameSignals.Instance.OnGameStart += OnGameStart;
-            //CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
+            CoreGameSignals.Instance.OnGameStart += OnGameStart;
+            CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
         }
         private void OnDisable()
         {
             PlayerSignals.Instance.OnPlayerCrash -= OnPlayerCrash;
             PlayerSignals.Instance.OnPlayerCollectPoint -= OnPlayerCollectPoint;
-            //CoreGameSignals.Instance.OnGameStart -= OnGameStart;
-            //CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+            CoreGameSignals.Instance.OnGameStart -= OnGameStart;
+            CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+        }
+
+        private void Update()
+        {
+            if(!_audioSource.isPlaying)
+                _audioSource.Play();
+        }
+
+        private void OnGameStart()
+        {
+            _audioSource.clip = audioClips[3];
+        }
+        private void OnGameRestart()
+        {
+            _audioSource.clip = audioClips[2];
         }
         private void OnPlayerCollectPoint()
         {
