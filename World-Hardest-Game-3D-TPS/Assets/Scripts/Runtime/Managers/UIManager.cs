@@ -75,6 +75,12 @@ namespace Runtime.Managers
             endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
                 OnComplete(() => StartCoroutine(RestartActions()));
         }
+        
+        public void SourceButton(string url)
+        {
+            Application.OpenURL(url);
+        }
+        
         public void NextLevel()
         {
             CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
