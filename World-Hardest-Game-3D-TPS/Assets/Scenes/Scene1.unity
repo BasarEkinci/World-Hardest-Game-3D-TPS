@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClips:
-  - {fileID: 8300000, guid: 2adaf9352efc04682a96ac1d5356bb87, type: 3}
+  - {fileID: 8300000, guid: ef89dea674e124b7ba5bd53d94617033, type: 3}
   - {fileID: 8300000, guid: a4adc4032bfac4182bb05f313bef3aa3, type: 3}
   - {fileID: 8300000, guid: ab9e46d9c83a54a3bb44312785ee7553, type: 3}
   - {fileID: 8300000, guid: 139072005a9604c148ff00b39f4f59f4, type: 3}
@@ -322,7 +322,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 139072005a9604c148ff00b39f4f59f4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
