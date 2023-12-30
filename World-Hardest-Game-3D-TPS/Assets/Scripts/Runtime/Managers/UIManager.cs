@@ -3,7 +3,6 @@ using DG.Tweening;
 using Runtime.Signals;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Runtime.Managers
 {
@@ -63,13 +62,14 @@ namespace Runtime.Managers
         }
         public void StartGame()
         {
+            UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnGameStart?.Invoke();
-            
             gamePanel.SetActive(true);
             startPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
         }
         public void MainMenu()
         {
+            UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnGameRestart?.Invoke();
             gamePanel.SetActive(false);
             _levelCounter = 1;
@@ -81,10 +81,12 @@ namespace Runtime.Managers
         public void SourceButton(string url)
         {
             Application.OpenURL(url);
+            UISignals.Instance.OnButtonCliceked?.Invoke();
         }
         
         public void NextLevel()
         {
+            UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
             CoreGameSignals.Instance.OnLoadLevel?.Invoke();
             CoreGameSignals.Instance.OnNextLevel?.Invoke();

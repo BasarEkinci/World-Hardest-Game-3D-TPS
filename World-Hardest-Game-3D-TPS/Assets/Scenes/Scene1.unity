@@ -309,6 +309,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: a4adc4032bfac4182bb05f313bef3aa3, type: 3}
   - {fileID: 8300000, guid: ab9e46d9c83a54a3bb44312785ee7553, type: 3}
   - {fileID: 8300000, guid: 139072005a9604c148ff00b39f4f59f4, type: 3}
+  - {fileID: 8300000, guid: b949d8827ce87408299bf9120a78e4de, type: 3}
 --- !u!82 &68133004
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1253,7 +1254,7 @@ MonoBehaviour:
   m_IsGlobal: 1
   priority: 7.68
   blendDistance: 0
-  weight: 0
+  weight: 0.0033
   sharedProfile: {fileID: 11400000, guid: a6560a915ef98420e9faacc1c7438823, type: 2}
 --- !u!95 &636927240
 Animator:
