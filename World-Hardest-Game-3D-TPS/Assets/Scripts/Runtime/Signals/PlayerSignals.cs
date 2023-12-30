@@ -7,5 +7,6 @@ namespace Runtime.Signals
     {
         public UnityAction OnPlayerCrash = delegate {  };
         public UnityAction OnPlayerCollectPoint = delegate {  };
+        public UnityAction OnPlayerMove = delegate {  };
     }
 }
