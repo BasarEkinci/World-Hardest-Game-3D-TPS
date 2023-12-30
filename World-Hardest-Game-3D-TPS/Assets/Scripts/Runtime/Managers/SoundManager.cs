@@ -1,5 +1,6 @@
 using Runtime.Signals;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Runtime.Managers
 {
@@ -24,6 +25,7 @@ namespace Runtime.Managers
             PlayerSignals.Instance.OnPlayerCollectPoint += OnPlayerCollectPoint;
             CoreGameSignals.Instance.OnGameStart += OnGameStart;
             CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
+            UISignals.Instance.OnButtonCliceked += OnButtonClicked;
         }
         private void OnDisable()
         {
@@ -31,12 +33,18 @@ namespace Runtime.Managers
             PlayerSignals.Instance.OnPlayerCollectPoint -= OnPlayerCollectPoint;
             CoreGameSignals.Instance.OnGameStart -= OnGameStart;
             CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+            UISignals.Instance.OnButtonCliceked -= OnButtonClicked;
         }
-
+        
         private void Update()
         {
             if(!_audioSource.isPlaying)
                 _audioSource.Play();
+        }
+        
+        private void OnButtonClicked()
+        {
+            _audioSource.PlayOneShot(audioClips[4]);
         }
 
         private void OnGameStart()

@@ -3,6 +3,7 @@ using DG.Tweening;
 using Runtime.Signals;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Runtime.Managers
 {
@@ -63,6 +64,7 @@ namespace Runtime.Managers
         public void StartGame()
         {
             CoreGameSignals.Instance.OnGameStart?.Invoke();
+            
             gamePanel.SetActive(true);
             startPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
         }
