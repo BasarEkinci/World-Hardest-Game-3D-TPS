@@ -3070,7 +3070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 457226f61556c344fb6fe6e87200f205, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 3
+  movementSpeed: 3.12
   lookSmooth: 0.07
   directionSmooth: 0.09
 --- !u!114 &1456390975
@@ -3128,7 +3128,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
@@ -3275,8 +3275,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.2207428, y: 1.8182559, z: 1}
-  m_Center: {x: 0, y: 0.13788164, z: 0}
+  m_Size: {x: 1.1975749, y: 1.8182559, z: 0.92470324}
+  m_Center: {x: 0, y: 0.13788164, z: 0.0028967857}
 --- !u!1 &1590406382
 GameObject:
   m_ObjectHideFlags: 0
@@ -4073,7 +4073,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.798
+    m_Strength: 0.641
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 1.54
@@ -4151,7 +4151,7 @@ MonoBehaviour:
   m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
-  m_SoftShadowQuality: 1
+  m_SoftShadowQuality: 0
 --- !u!1 &1955789143
 GameObject:
   m_ObjectHideFlags: 0

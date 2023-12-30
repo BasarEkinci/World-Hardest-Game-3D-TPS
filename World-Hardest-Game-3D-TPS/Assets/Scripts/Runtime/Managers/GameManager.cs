@@ -21,10 +21,6 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnGameStart += OnGameStart;
             CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
         }
-        private void Start()
-        {
-            Application.targetFrameRate = 60;
-        }
         private void OnDisable()
         {
             CoreGameSignals.Instance.OnGameStart -= OnGameStart;

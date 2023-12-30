@@ -25,9 +25,8 @@ namespace Runtime.Managers
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody>();
-            _collider = GetComponent<Collider>();
+            _collider = GetComponent<BoxCollider>();
         }
-
         private void Update()
         {
             if(!_canMove) return;
@@ -51,6 +50,7 @@ namespace Runtime.Managers
         {
             _canMove = true;
             _collider.enabled = true;
+            transform.position = checkPoint.position;
         }
 
         private void OnNextLevel()
@@ -67,9 +67,9 @@ namespace Runtime.Managers
         }
         private void OnGameRestart()
         {
+            _collider.enabled = true;
             transform.position = checkPoint.position;
             _canMove = false;
-            _collider.enabled = false;
         }
         private void OnPlayerCrash()
         {
