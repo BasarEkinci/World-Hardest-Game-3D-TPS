@@ -25,7 +25,7 @@ namespace Runtime.Managers
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody>();
-            _collider = GetComponent<CapsuleCollider>();
+            _collider = GetComponent<Collider>();
         }
 
         private void Update()

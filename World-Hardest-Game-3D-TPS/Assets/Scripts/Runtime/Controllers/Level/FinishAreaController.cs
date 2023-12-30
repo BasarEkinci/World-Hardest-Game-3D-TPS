@@ -24,7 +24,6 @@ namespace Runtime.Controllers.Level
             if (other.gameObject.CompareTag("Player") && _currentObjectCount == requiredObjectCount)
             {
                 CoreGameSignals.Instance.OnLevelComplete?.Invoke();
-                Debug.Log("Level Complete");
             }
         }
 
