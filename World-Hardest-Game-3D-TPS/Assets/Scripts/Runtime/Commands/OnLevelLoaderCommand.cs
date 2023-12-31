@@ -14,6 +14,7 @@ namespace Runtime.Commands
         {
             if(Resources.Load<GameObject>($"Prefabs/Levels/Level{levelIndex}") != null)
             {
+                if(_levelHolder.childCount > 0) return;
                 Object.Instantiate(Resources.Load<GameObject>($"Prefabs/Levels/Level{levelIndex}"), _levelHolder, true);
             }
         }
