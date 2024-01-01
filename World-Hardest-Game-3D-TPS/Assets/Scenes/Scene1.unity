@@ -231,8 +231,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2084248854}
         m_TargetAssemblyTypeName: Runtime.Managers.UIManager, Assembly-CSharp
-        m_MethodName: SourceButton
-        m_Mode: 5
+        m_MethodName: MainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Restart
+  m_text: Main Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9386a2f5315c9484e8f710ad9a51b60a, type: 2}
   m_sharedMaterial: {fileID: 4419106072886493904, guid: 9386a2f5315c9484e8f710ad9a51b60a,

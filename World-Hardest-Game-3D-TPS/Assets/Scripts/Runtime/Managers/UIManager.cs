@@ -121,7 +121,6 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
             CoreGameSignals.Instance.OnLoadLevel?.Invoke();
             CoreGameSignals.Instance.OnGameResume?.Invoke();
-            CoreGameSignals.Instance.OnNextLevel?.Invoke();
         }
         private IEnumerator RestartActions()
         {
