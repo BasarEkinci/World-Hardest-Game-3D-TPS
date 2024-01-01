@@ -12,5 +12,6 @@ namespace Runtime.Signals
         public UnityAction OnLoadLevel = delegate {  };
         public UnityAction OnGameStart = delegate {  };
         public UnityAction OnNextLevel = delegate {  };
+        public UnityAction OnResetLevel = delegate {  };
     }
 }

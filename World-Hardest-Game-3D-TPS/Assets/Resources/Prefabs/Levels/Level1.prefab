@@ -3918,7 +3918,6 @@ GameObject:
   - component: {fileID: 2772878239343426750}
   - component: {fileID: 1406529185900180112}
   - component: {fileID: 7495474503127297843}
-  - component: {fileID: 4026432959525703185}
   m_Layer: 0
   m_Name: yellowLego (13)
   m_TagString: Bound
@@ -3992,27 +3991,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4026432959525703185
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547354812044382467}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.042716056, z: 0.0032869347}
-  m_Center: {x: 0, y: 0.019768158, z: 0.0016434666}
 --- !u!1 &1548417158784389175
 GameObject:
   m_ObjectHideFlags: 0
@@ -5629,8 +5607,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.0060709957, z: 0.0028823894}
-  m_Center: {x: -1.37253335e-17, y: -0.0014455239, z: 0.0014411957}
+  m_Size: {x: 0.0348884, y: 0.006129432, z: 0.0028823894}
+  m_Center: {x: 0.016654238, y: -0.0015916128, z: 0.0014411957}
 --- !u!1 &2217085372481443384
 GameObject:
   m_ObjectHideFlags: 0
@@ -8997,8 +8975,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799807, y: 0.044296443, z: 0.00226648}
-  m_Center: {x: 0, y: -0.020558298, z: 0.0011332403}
+  m_Size: {x: 0.008008512, y: 0.044296443, z: 0.00226648}
+  m_Center: {x: 0.0032142657, y: -0.020558298, z: 0.0011332403}
 --- !u!1 &3537939256229675533
 GameObject:
   m_ObjectHideFlags: 0
@@ -10712,7 +10690,6 @@ GameObject:
   - component: {fileID: 6928987665434549379}
   - component: {fileID: 300614034837867949}
   - component: {fileID: 602738453980976525}
-  - component: {fileID: 8659275242854210398}
   m_Layer: 0
   m_Name: yellowLego (114)
   m_TagString: Bound
@@ -10786,27 +10763,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8659275242854210398
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4309465100069939631}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.030102657, z: 0.00306379}
-  m_Center: {x: 0.000000007450583, y: 0.013461357, z: 0.0015318951}
 --- !u!1 &4321687619071998310
 GameObject:
   m_ObjectHideFlags: 0
@@ -12076,7 +12032,6 @@ GameObject:
   - component: {fileID: 1016022711057740979}
   - component: {fileID: 2569045310904094226}
   - component: {fileID: 303522123551107224}
-  - component: {fileID: 3294085366197512039}
   m_Layer: 0
   m_Name: yellowLego (62)
   m_TagString: Bound
@@ -12150,27 +12105,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3294085366197512039
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5230551192611068926}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.031560414, z: 0.0028692207}
-  m_Center: {x: -8.9407654e-10, y: -0.014190215, z: 0.0014346103}
 --- !u!1 &5256749171923320774
 GameObject:
   m_ObjectHideFlags: 0
@@ -14348,8 +14282,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799805, y: 0.0063000205, z: 0.003279016}
-  m_Center: {x: -1.6898673e-13, y: 0.001560052, z: 0.001639509}
+  m_Size: {x: 0.031535164, y: 0.0059500127, z: 0.003279016}
+  m_Center: {x: -0.014977522, y: 0.0017940778, z: 0.0016395091}
 --- !u!1 &6532205713002733060
 GameObject:
   m_ObjectHideFlags: 0
@@ -16576,8 +16510,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799808, y: 0.0077168974, z: 0.0029147777}
-  m_Center: {x: -0.0000000018626454, y: -0.002268468, z: 0.001457389}
+  m_Size: {x: 0.04593282, y: 0.0076584597, z: 0.0029147777}
+  m_Center: {x: -0.022176407, y: -0.002297688, z: 0.001457389}
 --- !u!1 &7409922518266728951
 GameObject:
   m_ObjectHideFlags: 0
@@ -18518,8 +18452,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.023511676, z: 0.0031819562}
-  m_Center: {x: -1.3866385e-15, y: -0.010165845, z: 0.0015909781}
+  m_Size: {x: 0.0015799814, y: 0.024972603, z: 0.0031819562}
+  m_Center: {x: -2.7394608e-15, y: -0.009435408, z: 0.0015909782}
 --- !u!1 &8026412519765947822
 GameObject:
   m_ObjectHideFlags: 0
@@ -21621,7 +21555,6 @@ GameObject:
   - component: {fileID: 1514020631540473042}
   - component: {fileID: 264963117200754025}
   - component: {fileID: 6259054264921235272}
-  - component: {fileID: 3280988184859123106}
   m_Layer: 0
   m_Name: yellowLego (102)
   m_TagString: Bound
@@ -21695,27 +21628,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3280988184859123106
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9162244442423606295}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.0015799814, y: 0.031221444, z: 0.0032899105}
-  m_Center: {x: -5.901937e-11, y: -0.014020906, z: 0.0016449552}
 --- !u!1 &9220880259235353343
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,5 @@
 using Runtime.Signals;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Runtime.Managers
 {

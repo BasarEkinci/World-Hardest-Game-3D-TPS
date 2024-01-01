@@ -4,11 +4,11 @@ namespace Runtime.Controllers.Player
 {
     public class PlayerSoundController : MonoBehaviour
     {
-        
         [SerializeField] private float minPitch;
         [SerializeField] private float maxPitch;
         
         private AudioSource _playerAudio;
+        private Vector3 _previousPosition;
         
         private float _pitchFromPlayer;
 
@@ -16,18 +16,18 @@ namespace Runtime.Controllers.Player
         {
             _playerAudio = GetComponent<AudioSource>();
         }
-
         private void Update()
         {
-            //PlayerSound();
+            PlaySound();
         }
-
-        private void PlayerSound()
+        private void PlaySound()
         {
-            if(Input.anyKey && !Input.GetMouseButton(0))
-                _playerAudio.pitch = maxPitch;
-            else 
-                _playerAudio.pitch = minPitch;
+            var currentPosition = transform.position;
+            
+            var distance = Vector3.Distance(_previousPosition, currentPosition);
+
+            _pitchFromPlayer = distance > 0.001f ? maxPitch : minPitch;
+            _previousPosition = currentPosition;
         }
     }
 }

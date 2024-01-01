@@ -20,6 +20,7 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnNextLevel += OnNextLevel;
             CoreGameSignals.Instance.OnGameStart += OnGameStart;
             CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
+            CoreGameSignals.Instance.OnResetLevel += OnResetLevel;
         }
 
         private void Awake()
@@ -34,7 +35,9 @@ namespace Runtime.Managers
             playerAnimationController.SetAnimation();
 
             if (!Input.anyKey)
+            {
                 _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
+            }
         }
         
         private void OnDisable()
@@ -44,8 +47,14 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnNextLevel -= OnNextLevel;
             CoreGameSignals.Instance.OnGameStart -= OnGameStart;
             CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+            CoreGameSignals.Instance.OnResetLevel -= OnResetLevel;
         }
-        
+
+        private void OnResetLevel()
+        {
+            transform.position = checkPoint.position;
+        }
+
         private void OnGameStart()
         {
             _canMove = true;
