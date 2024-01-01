@@ -37,6 +37,7 @@ namespace Runtime.Managers
         private void OnLoadLevel()
         {
             _levelLoader.Execute(_levelIndex);
+            Debug.Log("Level Loaded");
         }
         private void OnGameRestart()
         {

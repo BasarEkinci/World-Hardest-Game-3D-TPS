@@ -19,7 +19,7 @@ namespace Runtime.Controllers.Player
 
         private void Update()
         {
-            PlayerSound();
+            //PlayerSound();
         }
 
         private void PlayerSound()

@@ -13,6 +13,7 @@ namespace Runtime.Managers
         [SerializeField] private GameObject startPanel;
         [SerializeField] private GameObject gamePanel;
         [SerializeField] private GameObject endGamePanel;
+        [SerializeField] private GameObject pausePanel;
 
         [Header("Texts")] 
         [SerializeField] private TMP_Text levelText;
@@ -26,6 +27,8 @@ namespace Runtime.Managers
         private void OnEnable()
         {
             CoreGameSignals.Instance.OnLevelComplete += OnLevelComplete;
+            CoreGameSignals.Instance.OnGamePause += OnGamePause;
+            CoreGameSignals.Instance.OnGameResume += OnGameResume;
             PlayerSignals.Instance.OnPlayerCrash += OnPlayerCrash;
         }
 
@@ -43,8 +46,21 @@ namespace Runtime.Managers
         private void OnDisable()
         {
             CoreGameSignals.Instance.OnLevelComplete -= OnLevelComplete;
+            CoreGameSignals.Instance.OnGamePause -= OnGamePause;
+            CoreGameSignals.Instance.OnGameResume -= OnGameResume;
             PlayerSignals.Instance.OnPlayerCrash -= OnPlayerCrash;
         }
+
+        private void OnGameResume()
+        {
+            pausePanel.transform.DOScale(Vector3.zero,0.2f).SetEase(Ease.InBack);
+        }
+
+        private void OnGamePause()
+        {
+            pausePanel.transform.DOScale(Vector3.one,0.2f).SetEase(Ease.OutBack);
+        }
+
         private void OnPlayerCrash()
         {
             _crushCounter++;
@@ -93,6 +109,19 @@ namespace Runtime.Managers
             winPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
             _levelCounter++;
             levelTextInGame.text = "Level: " + _levelCounter;
+        }
+
+        public void ResumeGameButton()
+        {
+            CoreGameSignals.Instance.OnGameResume?.Invoke();
+            UISignals.Instance.OnButtonCliceked?.Invoke();
+        }
+        public void ResetLevelButton()
+        {
+            CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
+            CoreGameSignals.Instance.OnLoadLevel?.Invoke();
+            CoreGameSignals.Instance.OnGameResume?.Invoke();
+            CoreGameSignals.Instance.OnNextLevel?.Invoke();
         }
         private IEnumerator RestartActions()
         {

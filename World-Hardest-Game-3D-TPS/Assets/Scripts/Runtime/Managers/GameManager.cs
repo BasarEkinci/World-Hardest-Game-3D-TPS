@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using Runtime.Signals;
+﻿using Runtime.Signals;
 using UnityEngine;
 
 namespace Runtime.Managers
@@ -9,13 +8,16 @@ namespace Runtime.Managers
         [SerializeField] private GameObject globalVolume;
         
         private Animator _animator;
-        private int _startGame = Animator.StringToHash("StartGame");
-        private int _restartGame = Animator.StringToHash("RestartGame");
+        private int _startGame;
+        private int _restartGame;
         
         private bool _isGamePaused;
+        private bool _isGameStarted;
 
         private void Awake()
-        {
+        { 
+            _startGame = Animator.StringToHash("StartGame");
+            _restartGame = Animator.StringToHash("RestartGame");
             _animator = globalVolume.GetComponent<Animator>();
         }
 
@@ -23,26 +25,22 @@ namespace Runtime.Managers
         {
             CoreGameSignals.Instance.OnGameStart += OnGameStart;
             CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
+            CoreGameSignals.Instance.OnGamePause += OnGamePause;
+            CoreGameSignals.Instance.OnGameResume += OnGameResume;
         }
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Input.GetKeyDown(KeyCode.Escape) && _isGameStarted)
             {
                 if (_isGamePaused)
                 {
-                    _isGamePaused = false;
-                    _animator.SetBool(_startGame,true);
-                    _animator.SetBool(_restartGame,false);
-                    Time.timeScale = 1;
+                    CoreGameSignals.Instance.OnGameResume?.Invoke();
+
                 }
                 else
                 {
-                    _isGamePaused = true;
-                    _animator.SetBool(_startGame,false);
-                    _animator.SetBool(_restartGame,true);
-                    StartCoroutine(WaitTime(2f));
-                    Time.timeScale = 0;
+                    CoreGameSignals.Instance.OnGamePause?.Invoke();
                 }
             }
         }
@@ -51,22 +49,35 @@ namespace Runtime.Managers
         {
             CoreGameSignals.Instance.OnGameStart -= OnGameStart;
             CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+            CoreGameSignals.Instance.OnGamePause -= OnGamePause;
+            CoreGameSignals.Instance.OnGameResume -= OnGameResume;
+        }
+
+        private void OnGameResume()
+        {
+            _isGamePaused = false;
+            _animator.SetBool(_startGame,true);
+            _animator.SetBool(_restartGame,false);
+        }
+
+        private void OnGamePause()
+        {
+            _isGamePaused = true;
+            _animator.SetBool(_startGame,false);
+            _animator.SetBool(_restartGame,true);
         }
 
         private void OnGameStart()
         {
+            _isGameStarted = true;
             _animator.SetBool(_startGame,true);
             _animator.SetBool(_restartGame,false);
         }
         private void OnGameRestart()
         {
+            _isGameStarted = false;
             _animator.SetBool(_startGame,false);
             _animator.SetBool(_restartGame,true);
-        }
-
-        IEnumerator WaitTime(float waitTime)
-        {
-            yield return new WaitForSeconds(waitTime * Time.deltaTime);
         }
     }
 }
