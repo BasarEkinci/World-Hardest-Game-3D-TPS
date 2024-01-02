@@ -36,9 +36,8 @@ namespace Runtime.Managers
         }
         private void Update()
         {
-            playerSoundController.CalculateDistance();
-            playerSoundController.SetSound();
             if (!_canMove) return;
+            playerSoundController.SetSound();
             playerMovementController.Move();
             playerAnimationController.SetAnimation();
         }

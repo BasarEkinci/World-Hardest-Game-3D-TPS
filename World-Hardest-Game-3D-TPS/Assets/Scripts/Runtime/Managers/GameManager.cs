@@ -13,6 +13,8 @@ namespace Runtime.Managers
         
         private bool _isGamePaused;
         private bool _isGameStarted;
+        
+
 
         private void Awake()
         { 
@@ -31,6 +33,8 @@ namespace Runtime.Managers
 
         private void Update()
         {
+
+            
             if (Input.GetKeyDown(KeyCode.Escape) && _isGameStarted)
             {
                 if (_isGamePaused)
@@ -52,6 +56,7 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnGamePause -= OnGamePause;
             CoreGameSignals.Instance.OnGameResume -= OnGameResume;
         }
+        
 
         private void OnGameResume()
         {

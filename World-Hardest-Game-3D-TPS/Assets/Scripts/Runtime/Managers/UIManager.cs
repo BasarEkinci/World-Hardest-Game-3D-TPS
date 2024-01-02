@@ -86,11 +86,12 @@ namespace Runtime.Managers
         public void MainMenu()
         {
             pausePanel.transform.DOScale(Vector3.zero,0.2f).SetEase(Ease.InBack);
+            _levelCounter = 1;
+            _crushCounter = 0;
+            levelTextInGame.text = "Level: " + _levelCounter;
             UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnGameRestart?.Invoke();
             gamePanel.SetActive(false);
-            _levelCounter = 1;
-            _crushCounter = 0;
             endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
                 OnComplete(() => StartCoroutine(RestartActions()));
         }
@@ -122,6 +123,7 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
             CoreGameSignals.Instance.OnLoadLevel?.Invoke();
             CoreGameSignals.Instance.OnGameResume?.Invoke();
+            CoreGameSignals.Instance.OnResetLevel?.Invoke();
         }
         private IEnumerator RestartActions()
         {
