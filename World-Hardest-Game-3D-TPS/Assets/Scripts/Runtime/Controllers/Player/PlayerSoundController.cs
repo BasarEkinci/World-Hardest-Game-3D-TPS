@@ -9,23 +9,24 @@ namespace Runtime.Controllers.Player
         
         private AudioSource _playerAudio;
         private Vector3 _previousPosition;
-        
+        private Vector3 _currentPosition;
+        private float _distance;
         private float _pitchFromPlayer;
 
         private void Awake()
         {
             _playerAudio = GetComponent<AudioSource>();
         }
-        internal void PlaySound()
+        internal void SetSound()
         {
-            var currentPosition = transform.position;
-            
-            var distance = Vector3.Distance(_previousPosition, currentPosition);
-
-            _pitchFromPlayer = distance > 0.008f ? maxPitch : minPitch;
+            _pitchFromPlayer = _distance > 0.008f ? maxPitch : minPitch;
             _playerAudio.pitch = _pitchFromPlayer;
-            _previousPosition = currentPosition;
-            Debug.Log(distance);
+        }
+        internal void CalculateDistance()
+        {
+            _currentPosition = transform.position;
+            _distance = Vector3.Distance(_previousPosition, _currentPosition);
+            _previousPosition = _currentPosition;
         }
     }
 }

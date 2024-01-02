@@ -24,6 +24,7 @@ namespace Runtime.Managers
             PlayerSignals.Instance.OnPlayerCollectPoint += OnPlayerCollectPoint;
             CoreGameSignals.Instance.OnGameStart += OnGameStart;
             CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
+            CoreGameSignals.Instance.OnLevelComplete += OnLevelComplete;
             UISignals.Instance.OnButtonCliceked += OnButtonClicked;
         }
         private void OnDisable()
@@ -32,6 +33,7 @@ namespace Runtime.Managers
             PlayerSignals.Instance.OnPlayerCollectPoint -= OnPlayerCollectPoint;
             CoreGameSignals.Instance.OnGameStart -= OnGameStart;
             CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
+            CoreGameSignals.Instance.OnLevelComplete -= OnLevelComplete;
             UISignals.Instance.OnButtonCliceked -= OnButtonClicked;
         }
         
@@ -39,6 +41,11 @@ namespace Runtime.Managers
         {
             if(!_audioSource.isPlaying)
                 _audioSource.Play();
+        }
+        
+        private void OnLevelComplete()
+        {
+            _audioSource.PlayOneShot(audioClips[6]);
         }
         
         private void OnButtonClicked()

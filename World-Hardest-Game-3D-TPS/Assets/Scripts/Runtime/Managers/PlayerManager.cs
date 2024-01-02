@@ -36,10 +36,11 @@ namespace Runtime.Managers
         }
         private void Update()
         {
-            if(!_canMove) return;
+            playerSoundController.CalculateDistance();
+            playerSoundController.SetSound();
+            if (!_canMove) return;
             playerMovementController.Move();
             playerAnimationController.SetAnimation();
-            playerSoundController.PlaySound();
         }
         
         private void OnDisable()
