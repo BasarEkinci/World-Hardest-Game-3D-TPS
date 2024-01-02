@@ -9,7 +9,6 @@ namespace Runtime.Managers
         [Header("Player Controllers")]
         [SerializeField] private PlayerMovementController playerMovementController;
         [SerializeField] private PlayerAnimationController playerAnimationController;
-        [SerializeField] private PlayerSoundController playerSoundController;
         
         [Header("Player Objects")]
         [SerializeField] private Transform checkPoint;
@@ -29,7 +28,6 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnGamePause += OnGamePause;
             CoreGameSignals.Instance.OnGameResume += OnGameResume;
         }
-
         private void Awake()
         {
             _collider = GetComponent<BoxCollider>();
@@ -37,7 +35,6 @@ namespace Runtime.Managers
         private void Update()
         {
             if (!_canMove) return;
-            playerSoundController.SetSound();
             playerMovementController.Move();
             playerAnimationController.SetAnimation();
         }
