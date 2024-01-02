@@ -1858,6 +1858,10 @@ MonoBehaviour:
   playerSoundController: {fileID: 2743711875805571667}
   checkPoint: {fileID: 3663537143481734574, guid: f4ccd145ad2de4820b81a41ac17f5f49,
     type: 3}
+  crushParticle: {fileID: 6986765338561324864, guid: 99b8d00d3c8c4446cb11cffff3383fbd,
+    type: 3}
+  finishParticle: {fileID: 7756923469444747070, guid: 75e8bfde1afeb4f94bc744f48b71f26b,
+    type: 3}
 --- !u!54 &260570546005782813
 Rigidbody:
   m_ObjectHideFlags: 0

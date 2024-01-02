@@ -13,6 +13,8 @@ namespace Runtime.Managers
         
         [Header("Player Objects")]
         [SerializeField] private Transform checkPoint;
+        [SerializeField] private ParticleSystem crushParticle;
+        [SerializeField] private ParticleSystem finishParticle;
 
         private bool _canMove;
         private Collider _collider;
@@ -51,17 +53,14 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnGamePause -= OnGamePause;
             CoreGameSignals.Instance.OnGameResume -= OnGameResume;
         }
-
         private void OnGameResume()
         {
             _canMove = true;
         }
-
         private void OnGamePause()
         {
             _canMove = false;
         }
-
         private void OnResetLevel()
         {
             transform.position = checkPoint.position;
@@ -73,18 +72,17 @@ namespace Runtime.Managers
             _collider.enabled = true;
             transform.position = checkPoint.position;
         }
-
         private void OnNextLevel()
         {
             _canMove = true;
             _collider.enabled = true;
             transform.position = checkPoint.position;
         }
-
         private void OnLevelComplete()
         {
             _canMove = false;
             _collider.enabled = false;
+            Instantiate(finishParticle, transform.position, Quaternion.identity);
         }
         private void OnGameRestart()
         {
@@ -94,6 +92,7 @@ namespace Runtime.Managers
         }
         private void OnPlayerCrash()
         {
+            Instantiate(crushParticle, transform.position, Quaternion.identity);
             transform.position = checkPoint.position;
         }
     }
