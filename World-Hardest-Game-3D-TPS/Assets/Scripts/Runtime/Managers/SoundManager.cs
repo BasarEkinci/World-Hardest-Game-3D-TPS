@@ -6,16 +6,13 @@ namespace Runtime.Managers
     public class SoundManager : MonoBehaviour
     {
         [SerializeField] private AudioClip[] audioClips;
-        private AudioSource _audioSource;
-
-        private void Awake()
-        {
-            _audioSource = GetComponent<AudioSource>();
-        }
-
+        [SerializeField] private AudioSource[] audioSources;
+        
+        private bool _isMusicOn = true;
+        
         private void Start()
         {
-            _audioSource.clip = audioClips[2];
+            audioSources[0].clip = audioClips[2];
         }
 
         private void OnEnable()
@@ -39,35 +36,40 @@ namespace Runtime.Managers
         
         private void Update()
         {
-            if(!_audioSource.isPlaying)
-                _audioSource.Play();
+            if(!audioSources[0].isPlaying)
+                audioSources[0].Play();
+        }
+        
+        public void SetMusicState(bool isOn)
+        {
+            audioSources[0].volume = isOn ? 1 : 0;
         }
         
         private void OnLevelComplete()
         {
-            _audioSource.PlayOneShot(audioClips[6]);
+            audioSources[1].PlayOneShot(audioClips[6]);
         }
         
         private void OnButtonClicked()
         {
-            _audioSource.PlayOneShot(audioClips[4]);
+            audioSources[1].PlayOneShot(audioClips[4]);
         }
 
         private void OnGameStart()
         {
-            _audioSource.clip = audioClips[3];
+            audioSources[0].clip = audioClips[3];
         }
         private void OnGameRestart()
         {
-            _audioSource.clip = audioClips[2];
+            audioSources[0].clip = audioClips[2];
         }
         private void OnPlayerCollectPoint()
         {
-            _audioSource.PlayOneShot(audioClips[0]);
+            audioSources[1].PlayOneShot(audioClips[0]);
         }
         private void OnPlayerCrash()
         {
-            _audioSource.PlayOneShot(audioClips[1]);
+            audioSources[1].PlayOneShot(audioClips[1]);
         }
     }   
 }
