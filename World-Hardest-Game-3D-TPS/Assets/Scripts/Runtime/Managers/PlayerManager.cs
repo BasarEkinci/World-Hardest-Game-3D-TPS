@@ -6,12 +6,15 @@ namespace Runtime.Managers
 {
     public class PlayerManager : MonoBehaviour
     {
+        [Header("Player Controllers")]
         [SerializeField] private PlayerMovementController playerMovementController;
         [SerializeField] private PlayerAnimationController playerAnimationController;
+        [SerializeField] private PlayerSoundController playerSoundController;
+        
+        [Header("Player Objects")]
         [SerializeField] private Transform checkPoint;
 
         private bool _canMove;
-        private Rigidbody _rigidbody;
         private Collider _collider;
         private void OnEnable()
         {
@@ -21,11 +24,12 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnGameStart += OnGameStart;
             CoreGameSignals.Instance.OnGameRestart += OnGameRestart;
             CoreGameSignals.Instance.OnResetLevel += OnResetLevel;
+            CoreGameSignals.Instance.OnGamePause += OnGamePause;
+            CoreGameSignals.Instance.OnGameResume += OnGameResume;
         }
 
         private void Awake()
         {
-            _rigidbody = GetComponent<Rigidbody>();
             _collider = GetComponent<BoxCollider>();
         }
         private void Update()
@@ -33,11 +37,7 @@ namespace Runtime.Managers
             if(!_canMove) return;
             playerMovementController.Move();
             playerAnimationController.SetAnimation();
-
-            if (!Input.anyKey)
-            {
-                _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
-            }
+            playerSoundController.PlaySound();
         }
         
         private void OnDisable()
@@ -48,6 +48,18 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnGameStart -= OnGameStart;
             CoreGameSignals.Instance.OnGameRestart -= OnGameRestart;
             CoreGameSignals.Instance.OnResetLevel -= OnResetLevel;
+            CoreGameSignals.Instance.OnGamePause -= OnGamePause;
+            CoreGameSignals.Instance.OnGameResume -= OnGameResume;
+        }
+
+        private void OnGameResume()
+        {
+            _canMove = true;
+        }
+
+        private void OnGamePause()
+        {
+            _canMove = false;
         }
 
         private void OnResetLevel()

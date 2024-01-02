@@ -16,18 +16,16 @@ namespace Runtime.Controllers.Player
         {
             _playerAudio = GetComponent<AudioSource>();
         }
-        private void Update()
-        {
-            PlaySound();
-        }
-        private void PlaySound()
+        internal void PlaySound()
         {
             var currentPosition = transform.position;
             
             var distance = Vector3.Distance(_previousPosition, currentPosition);
 
-            _pitchFromPlayer = distance > 0.001f ? maxPitch : minPitch;
+            _pitchFromPlayer = distance > 0.008f ? maxPitch : minPitch;
+            _playerAudio.pitch = _pitchFromPlayer;
             _previousPosition = currentPosition;
+            Debug.Log(distance);
         }
     }
 }

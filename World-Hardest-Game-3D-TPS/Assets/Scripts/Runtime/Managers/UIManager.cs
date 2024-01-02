@@ -85,6 +85,7 @@ namespace Runtime.Managers
         }
         public void MainMenu()
         {
+            pausePanel.transform.DOScale(Vector3.zero,0.2f).SetEase(Ease.InBack);
             UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnGameRestart?.Invoke();
             gamePanel.SetActive(false);

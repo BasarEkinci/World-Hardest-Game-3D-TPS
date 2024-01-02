@@ -3990,7 +3990,7 @@ GameObject:
   - component: {fileID: 1456390976}
   - component: {fileID: 1456390979}
   - component: {fileID: 1456390975}
-  - component: {fileID: 1456390982}
+  - component: {fileID: 1456390984}
   - component: {fileID: 1456390977}
   - component: {fileID: 1456390981}
   - component: {fileID: 1456390983}
@@ -4201,20 +4201,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1456390982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456390971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7454807c79db4e7894ae8fe249f9dfbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minPitch: 0
-  maxPitch: 1
 --- !u!65 &1456390983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4236,6 +4222,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.1975749, y: 1.8182559, z: 0.92470324}
   m_Center: {x: 0, y: 0.13788164, z: 0.0028967857}
+--- !u!114 &1456390984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456390971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7454807c79db4e7894ae8fe249f9dfbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minPitch: 0
+  maxPitch: 1
 --- !u!1 &1540115432
 GameObject:
   m_ObjectHideFlags: 0
@@ -5029,7 +5029,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Soruce
+  m_text: 'Source
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9386a2f5315c9484e8f710ad9a51b60a, type: 2}
   m_sharedMaterial: {fileID: 4419106072886493904, guid: 9386a2f5315c9484e8f710ad9a51b60a,
