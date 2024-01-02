@@ -89,6 +89,7 @@ namespace Runtime.Managers
             _levelCounter = 1;
             _crushCounter = 0;
             levelTextInGame.text = "Level: " + _levelCounter;
+            crushCountText.text = "Crush Count: " + _crushCounter;
             UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnGameRestart?.Invoke();
             gamePanel.SetActive(false);
