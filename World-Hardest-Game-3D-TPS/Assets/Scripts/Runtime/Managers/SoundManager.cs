@@ -47,7 +47,7 @@ namespace Runtime.Managers
         
         private void OnLevelComplete()
         {
-            audioSources[1].PlayOneShot(audioClips[6]);
+            audioSources[1].PlayOneShot(audioClips[5]);
         }
         
         private void OnButtonClicked()

@@ -3166,7 +3166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1693127af1cd44eb87f2d296fc552e5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDuration: 3.8
+  moveDuration: 3.7
 --- !u!54 &4220200726674142208
 Rigidbody:
   m_ObjectHideFlags: 0
