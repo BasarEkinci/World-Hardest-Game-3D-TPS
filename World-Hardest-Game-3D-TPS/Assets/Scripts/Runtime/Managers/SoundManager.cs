@@ -8,8 +8,6 @@ namespace Runtime.Managers
         [SerializeField] private AudioClip[] audioClips;
         [SerializeField] private AudioSource[] audioSources;
         
-        private bool _isMusicOn = true;
-        
         private void Start()
         {
             audioSources[0].clip = audioClips[2];
