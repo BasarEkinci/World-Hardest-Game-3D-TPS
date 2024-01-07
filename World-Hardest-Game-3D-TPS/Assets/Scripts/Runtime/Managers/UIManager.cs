@@ -3,6 +3,7 @@ using DG.Tweening;
 using Runtime.Signals;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Runtime.Managers
 {
@@ -20,10 +21,16 @@ namespace Runtime.Managers
         [SerializeField] private TMP_Text levelTextInGame;
         [SerializeField] private TMP_Text crushCountText;
         
+        [Header("Sound")]
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private AudioClip[] audioClips;
+        [SerializeField] private Toggle soundToggle;
+        
         private int _crushCounter;
         private int _levelCounter;
-        
-        
+
+        #region UnityMethods
+
         private void OnEnable()
         {
             CoreGameSignals.Instance.OnLevelComplete += OnLevelComplete;
@@ -43,6 +50,13 @@ namespace Runtime.Managers
             winPanel.transform.DOScale(Vector3.zero, 0.1f).SetEase(Ease.Linear);
             endGamePanel.transform.DOScale(Vector3.zero, 0.1f).SetEase(Ease.Linear);
         }
+
+        private void Update()
+        {
+            if(!audioSource.isPlaying)
+                audioSource.Play();
+        }
+
         private void OnDisable()
         {
             CoreGameSignals.Instance.OnLevelComplete -= OnLevelComplete;
@@ -51,6 +65,10 @@ namespace Runtime.Managers
             PlayerSignals.Instance.OnPlayerCrash -= OnPlayerCrash;
         }
 
+        #endregion
+        
+
+        #region Signals
         private void OnGameResume()
         {
             pausePanel.transform.DOScale(Vector3.zero,0.2f).SetEase(Ease.InBack);
@@ -76,36 +94,57 @@ namespace Runtime.Managers
 
             levelText.text = "Level " + _levelCounter + "\nCompleted";
         }
+
+        #endregion
+       
+
+        #region StartScreenButtons
         public void StartGame()
         {
-            UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnGameStart?.Invoke();
             gamePanel.SetActive(true);
             startPanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack);
+            audioSource.clip = audioClips[2];
         }
+        public void SourceButton(string url)
+        {
+            Application.OpenURL(url);
+        }
+        
+        public void SoundToggle(bool isOn)
+        {
+            soundToggle.isOn = isOn;
+            audioSource.volume = isOn ? 1 : 0;
+        }
+
+        #endregion
+
+
+        #region EndGameButtons
+
         public void MainMenu()
         {
             pausePanel.transform.DOScale(Vector3.zero,0.2f).SetEase(Ease.InBack);
+            audioSource.clip = audioClips[1];
+            audioSource.PlayOneShot(audioClips[0]);
             _levelCounter = 1;
             _crushCounter = 0;
             levelTextInGame.text = "Level: " + _levelCounter;
             crushCountText.text = "Crush Count: " + _crushCounter;
-            UISignals.Instance.OnButtonCliceked?.Invoke();
             CoreGameSignals.Instance.OnGameRestart?.Invoke();
             gamePanel.SetActive(false);
             endGamePanel.transform.DOScale(Vector3.zero, 0.5f).SetEase(Ease.InBack).
                 OnComplete(() => StartCoroutine(RestartActions()));
         }
+
+        #endregion
         
-        public void SourceButton(string url)
-        {
-            Application.OpenURL(url);
-            UISignals.Instance.OnButtonCliceked?.Invoke();
-        }
+
+        #region LevelCompleteButtons
         
         public void NextLevel()
         {
-            UISignals.Instance.OnButtonCliceked?.Invoke();
+            audioSource.PlayOneShot(audioClips[0]);
             CoreGameSignals.Instance.OnClearActiveLevel?.Invoke();
             CoreGameSignals.Instance.OnLoadLevel?.Invoke();
             CoreGameSignals.Instance.OnNextLevel?.Invoke();
@@ -114,10 +153,15 @@ namespace Runtime.Managers
             levelTextInGame.text = "Level: " + _levelCounter;
         }
 
+        #endregion
+        
+
+        #region PauseButtons
+
         public void ResumeGameButton()
         {
+            audioSource.PlayOneShot(audioClips[0]);
             CoreGameSignals.Instance.OnGameResume?.Invoke();
-            UISignals.Instance.OnButtonCliceked?.Invoke();
         }
         public void ResetLevelButton()
         {
@@ -126,6 +170,9 @@ namespace Runtime.Managers
             CoreGameSignals.Instance.OnGameResume?.Invoke();
             CoreGameSignals.Instance.OnResetLevel?.Invoke();
         }
+        
+        #endregion
+
         private IEnumerator RestartActions()
         {
             CoreGameSignals.Instance.OnGameRestart?.Invoke();
